@@ -1,0 +1,511 @@
+{
+  "s:Envelope": {
+    "xmlns:s": "http://schemas.xmlsoap.org/soap/envelope/",
+    "s:Body": {
+      "KPS_BilesikKutukSorgulaKimlikNoServisClientResponse": {
+        "xmlns": "http://tempuri.org/",
+        "KPS_BilesikKutukSorgulaKimlikNoServisClientResult": {
+          "xmlns:a": "http://schemas.datacontract.org/2004/07/MERNISServis",
+          "a:mHATADETAY": "",
+          "a:mBilesikKutukBilgileriSonucu": {
+            "b:SorguSonucu": {
+              "b:BilesikKutukBilgileri": {
+                "b:KimlikNo": 23087676470,
+                "b:MaviKartliKisiKutukleri": {
+                  "b:HataBilgisi": {
+                    "i:nil": true
+                  },
+                  "b:KisiBilgisi": {
+                    "b:BabaTCKimlikNo": {
+                      "i:nil": true
+                    },
+                    "b:KimlikNo": 23087676470,
+                    "b:KazanilanTCKimlikNo": {
+                      "i:nil": true
+                    },
+                    "b:HataBilgisi": {
+                      "b:Aciklama": "Aradığınız kriterlere uygun kayıt bulunamadı.",
+                      "b:Kod": 2
+                    },
+                    "b:EsTCKimlikNo": {
+                      "i:nil": true
+                    },
+                    "b:DogumYerKod": {
+                      "i:nil": true
+                    },
+                    "b:TemelBilgisi": {
+                      "b:DogumYer": {
+                        "i:nil": true
+                      },
+                      "b:Cinsiyet": {
+                        "i:nil": true
+                      },
+                      "b:Ad": {
+                        "i:nil": true
+                      },
+                      "b:AnneAd": {
+                        "i:nil": true
+                      },
+                      "b:DogumTarih": {
+                        "b:Yil": {
+                          "i:nil": true
+                        },
+                        "b:Gun": {
+                          "i:nil": true
+                        },
+                        "b:Ay": {
+                          "i:nil": true
+                        }
+                      },
+                      "b:BabaAd": {
+                        "i:nil": true
+                      },
+                      "b:Soyad": {
+                        "i:nil": true
+                      }
+                    },
+                    "b:GercekKisiKimlikNo": {
+                      "i:nil": true
+                    },
+                    "b:DurumBilgisi": {
+                      "b:Durum": {
+                        "i:nil": true
+                      },
+                      "b:OlumTarih": {
+                        "b:Yil": {
+                          "i:nil": true
+                        },
+                        "b:Gun": {
+                          "i:nil": true
+                        },
+                        "b:Ay": {
+                          "i:nil": true
+                        }
+                      },
+                      "b:MedeniHal": {
+                        "i:nil": true
+                      }
+                    },
+                    "b:Ulke": {
+                      "i:nil": true
+                    },
+                    "b:AnneTCKimlikNo": {
+                      "i:nil": true
+                    }
+                  },
+                  "b:MaviKartBilgisi": {
+                    "b:DogumYer": {
+                      "i:nil": true
+                    },
+                    "b:MedeniHal": {
+                      "i:nil": true
+                    },
+                    "b:Soyad": {
+                      "i:nil": true
+                    },
+                    "b:DogumYerKod": {
+                      "i:nil": true
+                    },
+                    "b:OncekiSoyad": {
+                      "i:nil": true
+                    },
+                    "b:KartKayitNo": {
+                      "i:nil": true
+                    },
+                    "b:Uyruk": {
+                      "i:nil": true
+                    },
+                    "b:VerilmeTarih": {
+                      "b:Yil": {
+                        "i:nil": true
+                      },
+                      "b:Gun": {
+                        "i:nil": true
+                      },
+                      "b:Ay": {
+                        "i:nil": true
+                      }
+                    },
+                    "b:KimlikNo": 23087676470,
+                    "b:Seri": {
+                      "i:nil": true
+                    },
+                    "b:HataBilgisi": {
+                      "b:Aciklama": "Aradığınız kriterlere uygun kayıt bulunamadı.",
+                      "b:Kod": 2
+                    },
+                    "b:Cinsiyet": {
+                      "i:nil": true
+                    },
+                    "b:No": {
+                      "i:nil": true
+                    },
+                    "b:Ad": {
+                      "i:nil": true
+                    },
+                    "b:AnneAd": {
+                      "i:nil": true
+                    },
+                    "b:DogumTarih": {
+                      "b:Yil": {
+                        "i:nil": true
+                      },
+                      "b:Gun": {
+                        "i:nil": true
+                      },
+                      "b:Ay": {
+                        "i:nil": true
+                      }
+                    },
+                    "b:VerilisNeden": {
+                      "i:nil": true
+                    },
+                    "b:BabaAd": {
+                      "i:nil": true
+                    },
+                    "b:Birim": {
+                      "i:nil": true
+                    }
+                  }
+                },
+                "b:HataBilgisi": {
+                  "i:nil": true
+                },
+                "b:YabanciKisiKutukleri": {
+                  "b:HataBilgisi": {
+                    "i:nil": true
+                  },
+                  "b:KisiBilgisi": {
+                    "b:EsKimlikNo": {
+                      "i:nil": true
+                    },
+                    "b:OlumTarih": {
+                      "b:Yil": {
+                        "i:nil": true
+                      },
+                      "b:Gun": {
+                        "i:nil": true
+                      },
+                      "b:Ay": {
+                        "i:nil": true
+                      }
+                    },
+                    "b:BitisTarihiBelirsizOlmaNeden": {
+                      "i:nil": true
+                    },
+                    "b:IzinBaslangicTarih": {
+                      "i:nil": true
+                    },
+                    "b:DogumYerKod": {
+                      "i:nil": true
+                    },
+                    "b:GercekKisiKimlikNo": {
+                      "i:nil": true
+                    },
+                    "b:DurumBilgisi": {
+                      "b:Durum": {
+                        "i:nil": true
+                      },
+                      "b:MedeniHal": {
+                        "i:nil": true
+                      }
+                    },
+                    "b:IzinDuzenlenenIl": {
+                      "i:nil": true
+                    },
+                    "b:Uyruk": {
+                      "i:nil": true
+                    },
+                    "b:KimlikNo": 23087676470,
+                    "b:KazanilanTCKimlikNo": {
+                      "i:nil": true
+                    },
+                    "b:AnneKimlikNo": {
+                      "i:nil": true
+                    },
+                    "b:HataBilgisi": {
+                      "b:Aciklama": "Aradığınız kriterlere uygun kayıt bulunamadı.",
+                      "b:Kod": 2
+                    },
+                    "b:BabaKimlikNo": {
+                      "i:nil": true
+                    },
+                    "b:DogumTarih": {
+                      "i:nil": true
+                    },
+                    "b:IzinNo": {
+                      "i:nil": true
+                    },
+                    "b:IzinBitisTarih": {
+                      "i:nil": true
+                    },
+                    "b:TemelBilgisi": {
+                      "b:DogumYer": {
+                        "i:nil": true
+                      },
+                      "b:Cinsiyet": {
+                        "i:nil": true
+                      },
+                      "b:Ad": {
+                        "i:nil": true
+                      },
+                      "b:AnneAd": {
+                        "i:nil": true
+                      },
+                      "b:BabaAd": {
+                        "i:nil": true
+                      },
+                      "b:Soyad": {
+                        "i:nil": true
+                      }
+                    },
+                    "b:KaynakBirim": {
+                      "i:nil": true
+                    }
+                  }
+                },
+                "b:TCVatandasiKisiKutukleri": {
+                  "b:HataBilgisi": {
+                    "i:nil": true
+                  },
+                  "b:NufusCuzdaniBilgisi": {
+                    "b:DogumYer": {
+                      "i:nil": true
+                    },
+                    "b:CuzdanKayitNo": {
+                      "i:nil": true
+                    },
+                    "b:Soyad": {
+                      "i:nil": true
+                    },
+                    "b:CuzdanVerilmeNeden": {
+                      "i:nil": true
+                    },
+                    "b:VerilmeTarih": {
+                      "b:Yil": {
+                        "i:nil": true
+                      },
+                      "b:Gun": {
+                        "i:nil": true
+                      },
+                      "b:Ay": {
+                        "i:nil": true
+                      }
+                    },
+                    "b:Seri": {
+                      "i:nil": true
+                    },
+                    "b:HataBilgisi": {
+                      "b:Aciklama": "Aradığınız kriterlere uygun kayıt bulunamadı.",
+                      "b:Kod": 2
+                    },
+                    "b:No": {
+                      "i:nil": true
+                    },
+                    "b:Ad": {
+                      "i:nil": true
+                    },
+                    "b:AnneAd": {
+                      "i:nil": true
+                    },
+                    "b:DogumTarih": {
+                      "b:Yil": {
+                        "i:nil": true
+                      },
+                      "b:Gun": {
+                        "i:nil": true
+                      },
+                      "b:Ay": {
+                        "i:nil": true
+                      }
+                    },
+                    "b:BabaAd": {
+                      "i:nil": true
+                    },
+                    "b:TCKimlikNo": 23087676470,
+                    "b:VerildigiIlce": {
+                      "i:nil": true
+                    }
+                  },
+                  "b:TCKKFotografBilgisi": {
+                    "b:HataBilgisi": {
+                      "i:nil": true
+                    },
+                    "b:TCKimlikNo": 23087676470,
+                    "b:Fotograf": "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"
+                  },
+                  "b:KisiBilgisi": {
+                    "b:BabaTCKimlikNo": {
+                      "i:nil": true
+                    },
+                    "b:HataBilgisi": {
+                      "i:nil": true
+                    },
+                    "b:KayitYeriBilgisi": {
+                      "b:Ilce": {
+                        "b:Aciklama": "Yozgat Merkez",
+                        "b:Kod": 1733
+                      },
+                      "b:AileSiraNo": 21,
+                      "b:BireySiraNo": 53,
+                      "b:Il": {
+                        "b:Aciklama": "Yozgat",
+                        "b:Kod": 66
+                      },
+                      "b:Cilt": {
+                        "b:Aciklama": "TÜRKMEN",
+                        "b:Kod": 110
+                      }
+                    },
+                    "b:EsTCKimlikNo": {
+                      "i:nil": true
+                    },
+                    "b:DogumYerKod": 1733,
+                    "b:TCKimlikNo": 23087676470,
+                    "b:TemelBilgisi": {
+                      "b:DogumYer": "YOZGAT",
+                      "b:Cinsiyet": {
+                        "b:Aciklama": "Erkek",
+                        "b:Kod": 1
+                      },
+                      "b:Ad": "ENGİN",
+                      "b:AnneAd": "MUAZZEZ",
+                      "b:DogumTarih": {
+                        "b:Yil": 1984,
+                        "b:Gun": 1,
+                        "b:Ay": 10
+                      },
+                      "b:BabaAd": "İSMAİL",
+                      "b:Soyad": "YİĞİT"
+                    },
+                    "b:DurumBilgisi": {
+                      "b:Din": {
+                        "i:nil": true
+                      },
+                      "b:Durum": {
+                        "b:Aciklama": "Açık",
+                        "b:Kod": 1
+                      },
+                      "b:OlumTarih": {
+                        "b:Yil": {
+                          "i:nil": true
+                        },
+                        "b:Gun": {
+                          "i:nil": true
+                        },
+                        "b:Ay": {
+                          "i:nil": true
+                        }
+                      },
+                      "b:MedeniHal": {
+                        "b:Aciklama": "Evli",
+                        "b:Kod": 2
+                      }
+                    },
+                    "b:AnneTCKimlikNo": {
+                      "i:nil": true
+                    }
+                  },
+                  "b:TCKKBilgisi": {
+                    "b:SeriNo": "A04C34488",
+                    "b:DogumYer": "YOZGAT",
+                    "b:SonGecerlilikTarih": {
+                      "b:Yil": 2027,
+                      "b:Gun": 24,
+                      "b:Ay": 7
+                    },
+                    "b:Soyad": "YİĞİT",
+                    "b:HataBilgisi": {
+                      "i:nil": true
+                    },
+                    "b:Cinsiyet": {
+                      "b:Aciklama": "Erkek",
+                      "b:Kod": 1
+                    },
+                    "b:Ad": "ENGİN",
+                    "b:AnneAd": "MUAZZEZ",
+                    "b:DogumTarih": {
+                      "b:Yil": 1984,
+                      "b:Gun": 1,
+                      "b:Ay": 10
+                    },
+                    "b:VerenMakam": "T.C. İçişleri Bakanlığı",
+                    "b:BabaAd": "İSMAİL",
+                    "b:TeslimEdenBirim": {
+                      "i:nil": true
+                    },
+                    "b:TCKimlikNo": 23087676470,
+                    "b:TeslimTarih": {
+                      "b:Yil": 2017,
+                      "b:Gun": 5,
+                      "b:Ay": 8
+                    },
+                    "b:BasvuruNeden": {
+                      "b:Aciklama": "Değiştirme",
+                      "b:Kod": 2
+                    },
+                    "b:KayitNo": 25311037
+                  },
+                  "b:GeciciKimlikBilgisi": {
+                    "b:DuzenleyenIlce": {
+                      "i:nil": true
+                    },
+                    "b:SonGecerlilikTarih": {
+                      "i:nil": true
+                    },
+                    "b:Soyad": {
+                      "i:nil": true
+                    },
+                    "b:OncekiSoyad": {
+                      "i:nil": true
+                    },
+                    "b:HataBilgisi": {
+                      "b:Aciklama": "Aradığınız kriterlere uygun kayıt bulunamadı.",
+                      "b:Kod": 2
+                    },
+                    "b:Cinsiyet": {
+                      "i:nil": true
+                    },
+                    "b:Ad": {
+                      "i:nil": true
+                    },
+                    "b:AnneAd": {
+                      "i:nil": true
+                    },
+                    "b:DogumTarih": {
+                      "b:Yil": {
+                        "i:nil": true
+                      },
+                      "b:Gun": {
+                        "i:nil": true
+                      },
+                      "b:Ay": {
+                        "i:nil": true
+                      }
+                    },
+                    "b:BabaAd": {
+                      "i:nil": true
+                    },
+                    "b:TCKimlikNo": 23087676470,
+                    "b:BelgeNo": {
+                      "i:nil": true
+                    },
+                    "b:DuzenlenmeTarih": {
+                      "i:nil": true
+                    }
+                  }
+                }
+              }
+            },
+            "b:HataBilgisi": {
+              "i:nil": true
+            },
+            "xmlns:b": "http://kps.nvi.gov.tr/2011/01/01"
+          },
+          "a:mHATAKOD": 0,
+          "xmlns:i": "http://www.w3.org/2001/XMLSchema-instance"
+        }
+      }
+    }
+  }
+}

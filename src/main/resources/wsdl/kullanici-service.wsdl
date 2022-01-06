@@ -1,0 +1,311 @@
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" name="KullaniciServis" targetNamespace="http://tempuri.org/">
+    <wsp:Policy wsu:Id="BasicHttpsBinding_IKullaniciServis_policy">
+        <wsp:ExactlyOne>
+            <wsp:All>
+                <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+                    <wsp:Policy>
+                        <sp:TransportToken>
+                            <wsp:Policy>
+                                <sp:HttpsToken RequireClientCertificate="false"/>
+                            </wsp:Policy>
+                        </sp:TransportToken>
+                        <sp:AlgorithmSuite>
+                            <wsp:Policy>
+                                <sp:Basic256/>
+                            </wsp:Policy>
+                        </sp:AlgorithmSuite>
+                        <sp:Layout>
+                            <wsp:Policy>
+                                <sp:Strict/>
+                            </wsp:Policy>
+                        </sp:Layout>
+                    </wsp:Policy>
+                </sp:TransportBinding>
+            </wsp:All>
+        </wsp:ExactlyOne>
+    </wsp:Policy>
+    <wsdl:types>
+        <xsd:schema targetNamespace="http://tempuri.org/Imports">
+            <xsd:import schemaLocation="https://servis.jandarma.gov.tr/KullaniciWebServis/KullaniciServis.svc?xsd=xsd0" namespace="http://tempuri.org/"/>
+            <xsd:import schemaLocation="https://servis.jandarma.gov.tr/KullaniciWebServis/KullaniciServis.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+            <xsd:import schemaLocation="https://servis.jandarma.gov.tr/KullaniciWebServis/KullaniciServis.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/KullaniciWebServis"/>
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="IKullaniciServis_ProjeyeKullaniciEkle_InputMessage">
+        <wsdl:part name="parameters" element="tns:ProjeyeKullaniciEkle"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjeyeKullaniciEkle_OutputMessage">
+        <wsdl:part name="parameters" element="tns:ProjeyeKullaniciEkleResponse"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjedenKullaniciCikar_InputMessage">
+        <wsdl:part name="parameters" element="tns:ProjedenKullaniciCikar"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjedenKullaniciCikar_OutputMessage">
+        <wsdl:part name="parameters" element="tns:ProjedenKullaniciCikarResponse"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjedekiKullanicilariListele_InputMessage">
+        <wsdl:part name="parameters" element="tns:ProjedekiKullanicilariListele"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjedekiKullanicilariListele_OutputMessage">
+        <wsdl:part name="parameters" element="tns:ProjedekiKullanicilariListeleResponse"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjeGirisDogrula_InputMessage">
+        <wsdl:part name="parameters" element="tns:ProjeGirisDogrula"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjeGirisDogrula_OutputMessage">
+        <wsdl:part name="parameters" element="tns:ProjeGirisDogrulaResponse"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjeGirisDogrulaLDAP_InputMessage">
+        <wsdl:part name="parameters" element="tns:ProjeGirisDogrulaLDAP"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjeGirisDogrulaLDAP_OutputMessage">
+        <wsdl:part name="parameters" element="tns:ProjeGirisDogrulaLDAPResponse"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_PBIKProjeYetkiBilgi_InputMessage">
+        <wsdl:part name="parameters" element="tns:PBIKProjeYetkiBilgi"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_PBIKProjeYetkiBilgi_OutputMessage">
+        <wsdl:part name="parameters" element="tns:PBIKProjeYetkiBilgiResponse"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjeYetkiBilgi_InputMessage">
+        <wsdl:part name="parameters" element="tns:ProjeYetkiBilgi"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjeYetkiBilgi_OutputMessage">
+        <wsdl:part name="parameters" element="tns:ProjeYetkiBilgiResponse"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjeyePBIKIleKullaniciEkle_InputMessage">
+        <wsdl:part name="parameters" element="tns:ProjeyePBIKIleKullaniciEkle"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjeyePBIKIleKullaniciEkle_OutputMessage">
+        <wsdl:part name="parameters" element="tns:ProjeyePBIKIleKullaniciEkleResponse"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjedenPBIKIleKullaniciCikar_InputMessage">
+        <wsdl:part name="parameters" element="tns:ProjedenPBIKIleKullaniciCikar"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_ProjedenPBIKIleKullaniciCikar_OutputMessage">
+        <wsdl:part name="parameters" element="tns:ProjedenPBIKIleKullaniciCikarResponse"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_KullaniciDogrula_InputMessage">
+        <wsdl:part name="parameters" element="tns:KullaniciDogrula"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_KullaniciDogrula_OutputMessage">
+        <wsdl:part name="parameters" element="tns:KullaniciDogrulaResponse"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_SSIKullaniciYetkiListesiAl_InputMessage">
+        <wsdl:part name="parameters" element="tns:SSIKullaniciYetkiListesiAl"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_SSIKullaniciYetkiListesiAl_OutputMessage">
+        <wsdl:part name="parameters" element="tns:SSIKullaniciYetkiListesiAlResponse"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_SSI_Jabs_Gelis_Dogrula_InputMessage">
+        <wsdl:part name="parameters" element="tns:SSI_Jabs_Gelis_Dogrula"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_SSI_Jabs_Gelis_Dogrula_OutputMessage">
+        <wsdl:part name="parameters" element="tns:SSI_Jabs_Gelis_DogrulaResponse"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_SSI_Mobil_Gelis_Dogrula_InputMessage">
+        <wsdl:part name="parameters" element="tns:SSI_Mobil_Gelis_Dogrula"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_SSI_Mobil_Gelis_Dogrula_OutputMessage">
+        <wsdl:part name="parameters" element="tns:SSI_Mobil_Gelis_DogrulaResponse"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_SSIProjeKullaniciListesiAl_InputMessage">
+        <wsdl:part name="parameters" element="tns:SSIProjeKullaniciListesiAl"/>
+    </wsdl:message>
+    <wsdl:message name="IKullaniciServis_SSIProjeKullaniciListesiAl_OutputMessage">
+        <wsdl:part name="parameters" element="tns:SSIProjeKullaniciListesiAlResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="IKullaniciServis">
+        <wsdl:operation name="ProjeyeKullaniciEkle">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/ProjeyeKullaniciEkle" message="tns:IKullaniciServis_ProjeyeKullaniciEkle_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/ProjeyeKullaniciEkleResponse" message="tns:IKullaniciServis_ProjeyeKullaniciEkle_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="ProjedenKullaniciCikar">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/ProjedenKullaniciCikar" message="tns:IKullaniciServis_ProjedenKullaniciCikar_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/ProjedenKullaniciCikarResponse" message="tns:IKullaniciServis_ProjedenKullaniciCikar_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="ProjedekiKullanicilariListele">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/ProjedekiKullanicilariListele" message="tns:IKullaniciServis_ProjedekiKullanicilariListele_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/ProjedekiKullanicilariListeleResponse" message="tns:IKullaniciServis_ProjedekiKullanicilariListele_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="ProjeGirisDogrula">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/ProjeGirisDogrula" message="tns:IKullaniciServis_ProjeGirisDogrula_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/ProjeGirisDogrulaResponse" message="tns:IKullaniciServis_ProjeGirisDogrula_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="ProjeGirisDogrulaLDAP">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/ProjeGirisDogrulaLDAP" message="tns:IKullaniciServis_ProjeGirisDogrulaLDAP_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/ProjeGirisDogrulaLDAPResponse" message="tns:IKullaniciServis_ProjeGirisDogrulaLDAP_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="PBIKProjeYetkiBilgi">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/PBIKProjeYetkiBilgi" message="tns:IKullaniciServis_PBIKProjeYetkiBilgi_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/PBIKProjeYetkiBilgiResponse" message="tns:IKullaniciServis_PBIKProjeYetkiBilgi_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="ProjeYetkiBilgi">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/ProjeYetkiBilgi" message="tns:IKullaniciServis_ProjeYetkiBilgi_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/ProjeYetkiBilgiResponse" message="tns:IKullaniciServis_ProjeYetkiBilgi_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="ProjeyePBIKIleKullaniciEkle">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/ProjeyePBIKIleKullaniciEkle" message="tns:IKullaniciServis_ProjeyePBIKIleKullaniciEkle_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/ProjeyePBIKIleKullaniciEkleResponse" message="tns:IKullaniciServis_ProjeyePBIKIleKullaniciEkle_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="ProjedenPBIKIleKullaniciCikar">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/ProjedenPBIKIleKullaniciCikar" message="tns:IKullaniciServis_ProjedenPBIKIleKullaniciCikar_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/ProjedenPBIKIleKullaniciCikarResponse" message="tns:IKullaniciServis_ProjedenPBIKIleKullaniciCikar_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="KullaniciDogrula">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/KullaniciDogrula" message="tns:IKullaniciServis_KullaniciDogrula_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/KullaniciDogrulaResponse" message="tns:IKullaniciServis_KullaniciDogrula_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="SSIKullaniciYetkiListesiAl">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/SSIKullaniciYetkiListesiAl" message="tns:IKullaniciServis_SSIKullaniciYetkiListesiAl_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/SSIKullaniciYetkiListesiAlResponse" message="tns:IKullaniciServis_SSIKullaniciYetkiListesiAl_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="SSI_Jabs_Gelis_Dogrula">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/SSI_Jabs_Gelis_Dogrula" message="tns:IKullaniciServis_SSI_Jabs_Gelis_Dogrula_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/SSI_Jabs_Gelis_DogrulaResponse" message="tns:IKullaniciServis_SSI_Jabs_Gelis_Dogrula_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="SSI_Mobil_Gelis_Dogrula">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/SSI_Mobil_Gelis_Dogrula" message="tns:IKullaniciServis_SSI_Mobil_Gelis_Dogrula_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/SSI_Mobil_Gelis_DogrulaResponse" message="tns:IKullaniciServis_SSI_Mobil_Gelis_Dogrula_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="SSIProjeKullaniciListesiAl">
+            <wsdl:input wsaw:Action="http://tempuri.org/IKullaniciServis/SSIProjeKullaniciListesiAl" message="tns:IKullaniciServis_SSIProjeKullaniciListesiAl_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/IKullaniciServis/SSIProjeKullaniciListesiAlResponse" message="tns:IKullaniciServis_SSIProjeKullaniciListesiAl_OutputMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="BasicHttpsBinding_IKullaniciServis" type="tns:IKullaniciServis">
+        <wsp:PolicyReference URI="#BasicHttpsBinding_IKullaniciServis_policy"/>
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="ProjeyeKullaniciEkle">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/ProjeyeKullaniciEkle" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="ProjedenKullaniciCikar">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/ProjedenKullaniciCikar" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="ProjedekiKullanicilariListele">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/ProjedekiKullanicilariListele" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="ProjeGirisDogrula">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/ProjeGirisDogrula" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="ProjeGirisDogrulaLDAP">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/ProjeGirisDogrulaLDAP" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="PBIKProjeYetkiBilgi">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/PBIKProjeYetkiBilgi" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="ProjeYetkiBilgi">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/ProjeYetkiBilgi" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="ProjeyePBIKIleKullaniciEkle">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/ProjeyePBIKIleKullaniciEkle" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="ProjedenPBIKIleKullaniciCikar">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/ProjedenPBIKIleKullaniciCikar" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="KullaniciDogrula">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/KullaniciDogrula" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SSIKullaniciYetkiListesiAl">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/SSIKullaniciYetkiListesiAl" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SSI_Jabs_Gelis_Dogrula">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/SSI_Jabs_Gelis_Dogrula" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SSI_Mobil_Gelis_Dogrula">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/SSI_Mobil_Gelis_Dogrula" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SSIProjeKullaniciListesiAl">
+            <soap:operation soapAction="http://tempuri.org/IKullaniciServis/SSIProjeKullaniciListesiAl" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="KullaniciServis">
+        <wsdl:port name="BasicHttpsBinding_IKullaniciServis" binding="tns:BasicHttpsBinding_IKullaniciServis">
+            <soap:address location="https://servis.jandarma.gov.tr/KullaniciWebServis/KullaniciServis.svc/soap"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

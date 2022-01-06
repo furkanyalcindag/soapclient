@@ -1,0 +1,1571 @@
+[IJ]-1-Unknown-[IJ]-event=org.apache.maven.settings.building.DefaultSettingsBuildingRequest@2f162cc0
+[IJ]-1-Unknown-[IJ]-event=org.apache.maven.settings.building.DefaultSettingsBuildingResult@1922e6d
+[IJ]-1-Unknown-[IJ]-event=org.apache.maven.toolchain.building.DefaultToolchainsBuildingRequest@532a02d9
+[IJ]-1-Unknown-[IJ]-event=org.apache.maven.toolchain.building.DefaultToolchainsBuildingResult@cdc3aae
+[IJ]-1-Unknown-[IJ]-event=org.apache.maven.execution.DefaultMavenExecutionRequest@c9413d8
+[IJ]-1-ProjectDiscoveryStarted-[IJ]-id=unknown
+[INFO] Scanning for projects...
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-parent:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-parent/2.3.1.RELEASE/spring-boot-starter-parent-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-parent:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-dependencies:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-dependencies/2.3.1.RELEASE/spring-boot-dependencies-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-dependencies:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.datastax.oss:java-driver-bom:pom:4.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/datastax/oss/java-driver-bom/4.6.1/java-driver-bom-4.6.1.pom-[IJ]-artifactCoord=com.datastax.oss:java-driver-bom:pom:4.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.dropwizard.metrics:metrics-bom:pom:4.1.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/dropwizard/metrics/metrics-bom/4.1.9/metrics-bom-4.1.9.pom-[IJ]-artifactCoord=io.dropwizard.metrics:metrics-bom:pom:4.1.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.dropwizard.metrics:metrics-parent:pom:4.1.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/dropwizard/metrics/metrics-parent/4.1.9/metrics-parent-4.1.9.pom-[IJ]-artifactCoord=io.dropwizard.metrics:metrics-parent:pom:4.1.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson:jackson-bom:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/jackson-bom/2.11.0/jackson-bom-2.11.0.pom-[IJ]-artifactCoord=com.fasterxml.jackson:jackson-bom:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson:jackson-parent:pom:2.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom-[IJ]-artifactCoord=com.fasterxml.jackson:jackson-parent:pom:2.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml:oss-parent:pom:38-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/oss-parent/38/oss-parent-38.pom-[IJ]-artifactCoord=com.fasterxml:oss-parent:pom:38-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jersey:jersey-bom:pom:2.30.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jersey/jersey-bom/2.30.1/jersey-bom-2.30.1.pom-[IJ]-artifactCoord=org.glassfish.jersey:jersey-bom:pom:2.30.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.eclipse.ee4j:project:pom:1.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/eclipse/ee4j/project/1.0.5/project-1.0.5.pom-[IJ]-artifactCoord=org.eclipse.ee4j:project:pom:1.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.eclipse.jetty:jetty-bom:pom:9.4.29.v20200521-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/eclipse/jetty/jetty-bom/9.4.29.v20200521/jetty-bom-9.4.29.v20200521.pom-[IJ]-artifactCoord=org.eclipse.jetty:jetty-bom:pom:9.4.29.v20200521-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.junit:junit-bom:pom:5.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/junit/junit-bom/5.6.2/junit-bom-5.6.2.pom-[IJ]-artifactCoord=org.junit:junit-bom:pom:5.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jetbrains.kotlin:kotlin-bom:pom:1.3.72-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jetbrains/kotlin/kotlin-bom/1.3.72/kotlin-bom-1.3.72.pom-[IJ]-artifactCoord=org.jetbrains.kotlin:kotlin-bom:pom:1.3.72-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jetbrains.kotlinx:kotlinx-coroutines-bom:pom:1.3.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.3.7/kotlinx-coroutines-bom-1.3.7.pom-[IJ]-artifactCoord=org.jetbrains.kotlinx:kotlinx-coroutines-bom:pom:1.3.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.logging.log4j:log4j-bom:pom:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom-[IJ]-artifactCoord=org.apache.logging.log4j:log4j-bom:pom:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.logging:logging-parent:pom:1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/logging/logging-parent/1/logging-parent-1.pom-[IJ]-artifactCoord=org.apache.logging:logging-parent:pom:1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:18-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/apache/18/apache-18.pom-[IJ]-artifactCoord=org.apache:apache:pom:18-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.micrometer:micrometer-bom:pom:1.5.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/micrometer/micrometer-bom/1.5.1/micrometer-bom-1.5.1.pom-[IJ]-artifactCoord=io.micrometer:micrometer-bom:pom:1.5.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.netty:netty-bom:pom:4.1.50.Final-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/netty/netty-bom/4.1.50.Final/netty-bom-4.1.50.Final.pom-[IJ]-artifactCoord=io.netty:netty-bom:pom:4.1.50.Final-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.oss:oss-parent:pom:7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom-[IJ]-artifactCoord=org.sonatype.oss:oss-parent:pom:7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.r2dbc:r2dbc-bom:pom:Arabba-SR4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/r2dbc/r2dbc-bom/Arabba-SR4/r2dbc-bom-Arabba-SR4.pom-[IJ]-artifactCoord=io.r2dbc:r2dbc-bom:pom:Arabba-SR4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.projectreactor:reactor-bom:pom:Dysprosium-SR8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/projectreactor/reactor-bom/Dysprosium-SR8/reactor-bom-Dysprosium-SR8.pom-[IJ]-artifactCoord=io.projectreactor:reactor-bom:pom:Dysprosium-SR8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.rsocket:rsocket-bom:pom:1.0.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/rsocket/rsocket-bom/1.0.1/rsocket-bom-1.0.1.pom-[IJ]-artifactCoord=io.rsocket:rsocket-bom:pom:1.0.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.data:spring-data-releasetrain:pom:Neumann-SR1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/data/spring-data-releasetrain/Neumann-SR1/spring-data-releasetrain-Neumann-SR1.pom-[IJ]-artifactCoord=org.springframework.data:spring-data-releasetrain:pom:Neumann-SR1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.data.build:spring-data-build:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/data/build/spring-data-build/2.3.1.RELEASE/spring-data-build-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.data.build:spring-data-build:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-framework-bom:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-framework-bom/5.2.7.RELEASE/spring-framework-bom-5.2.7.RELEASE.pom-[IJ]-artifactCoord=org.springframework:spring-framework-bom:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.integration:spring-integration-bom:pom:5.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/integration/spring-integration-bom/5.3.1.RELEASE/spring-integration-bom-5.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.integration:spring-integration-bom:pom:5.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.security:spring-security-bom:pom:5.3.3.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/security/spring-security-bom/5.3.3.RELEASE/spring-security-bom-5.3.3.RELEASE.pom-[IJ]-artifactCoord=org.springframework.security:spring-security-bom:pom:5.3.3.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.session:spring-session-bom:pom:Dragonfruit-RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/session/spring-session-bom/Dragonfruit-RELEASE/spring-session-bom-Dragonfruit-RELEASE.pom-[IJ]-artifactCoord=org.springframework.session:spring-session-bom:pom:Dragonfruit-RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-parent:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-parent/2.3.1.RELEASE/spring-boot-starter-parent-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-parent:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-dependencies:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-dependencies/2.3.1.RELEASE/spring-boot-dependencies-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-dependencies:pom:2.3.1.RELEASE-[IJ]-error=
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.turkai:consume:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.boot:spring-boot-starter-web-services:jar -> duplicate declaration of version (?) @ line 78, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[IJ]-1-SessionStarted-[IJ]-id=com.turkai:consume:jar:0.0.1-SNAPSHOT-[IJ]-projects=com.turkai:consume&&
+[IJ]-1-ProjectStarted-[IJ]-id=com.turkai:consume:jar:0.0.1-SNAPSHOT
+[INFO] 
+[INFO] -------------------------< com.turkai:consume >-------------------------
+[INFO] Building consume 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-maven-plugin:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-maven-plugin/2.3.1.RELEASE/spring-boot-maven-plugin-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-maven-plugin:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-parent:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-parent/2.3.1.RELEASE/spring-boot-parent-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-parent:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-dependencies:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-dependencies/2.3.1.RELEASE/spring-boot-dependencies-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-dependencies:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.datastax.oss:java-driver-bom:pom:4.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/datastax/oss/java-driver-bom/4.6.1/java-driver-bom-4.6.1.pom-[IJ]-artifactCoord=com.datastax.oss:java-driver-bom:pom:4.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.dropwizard.metrics:metrics-bom:pom:4.1.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/dropwizard/metrics/metrics-bom/4.1.9/metrics-bom-4.1.9.pom-[IJ]-artifactCoord=io.dropwizard.metrics:metrics-bom:pom:4.1.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.dropwizard.metrics:metrics-parent:pom:4.1.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/dropwizard/metrics/metrics-parent/4.1.9/metrics-parent-4.1.9.pom-[IJ]-artifactCoord=io.dropwizard.metrics:metrics-parent:pom:4.1.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson:jackson-bom:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/jackson-bom/2.11.0/jackson-bom-2.11.0.pom-[IJ]-artifactCoord=com.fasterxml.jackson:jackson-bom:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson:jackson-parent:pom:2.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom-[IJ]-artifactCoord=com.fasterxml.jackson:jackson-parent:pom:2.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml:oss-parent:pom:38-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/oss-parent/38/oss-parent-38.pom-[IJ]-artifactCoord=com.fasterxml:oss-parent:pom:38-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jersey:jersey-bom:pom:2.30.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jersey/jersey-bom/2.30.1/jersey-bom-2.30.1.pom-[IJ]-artifactCoord=org.glassfish.jersey:jersey-bom:pom:2.30.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.eclipse.ee4j:project:pom:1.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/eclipse/ee4j/project/1.0.5/project-1.0.5.pom-[IJ]-artifactCoord=org.eclipse.ee4j:project:pom:1.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.eclipse.jetty:jetty-bom:pom:9.4.29.v20200521-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/eclipse/jetty/jetty-bom/9.4.29.v20200521/jetty-bom-9.4.29.v20200521.pom-[IJ]-artifactCoord=org.eclipse.jetty:jetty-bom:pom:9.4.29.v20200521-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.junit:junit-bom:pom:5.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/junit/junit-bom/5.6.2/junit-bom-5.6.2.pom-[IJ]-artifactCoord=org.junit:junit-bom:pom:5.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jetbrains.kotlin:kotlin-bom:pom:1.3.72-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jetbrains/kotlin/kotlin-bom/1.3.72/kotlin-bom-1.3.72.pom-[IJ]-artifactCoord=org.jetbrains.kotlin:kotlin-bom:pom:1.3.72-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jetbrains.kotlinx:kotlinx-coroutines-bom:pom:1.3.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.3.7/kotlinx-coroutines-bom-1.3.7.pom-[IJ]-artifactCoord=org.jetbrains.kotlinx:kotlinx-coroutines-bom:pom:1.3.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.logging.log4j:log4j-bom:pom:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom-[IJ]-artifactCoord=org.apache.logging.log4j:log4j-bom:pom:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.logging:logging-parent:pom:1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/logging/logging-parent/1/logging-parent-1.pom-[IJ]-artifactCoord=org.apache.logging:logging-parent:pom:1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:18-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/apache/18/apache-18.pom-[IJ]-artifactCoord=org.apache:apache:pom:18-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.micrometer:micrometer-bom:pom:1.5.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/micrometer/micrometer-bom/1.5.1/micrometer-bom-1.5.1.pom-[IJ]-artifactCoord=io.micrometer:micrometer-bom:pom:1.5.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.netty:netty-bom:pom:4.1.50.Final-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/netty/netty-bom/4.1.50.Final/netty-bom-4.1.50.Final.pom-[IJ]-artifactCoord=io.netty:netty-bom:pom:4.1.50.Final-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.oss:oss-parent:pom:7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom-[IJ]-artifactCoord=org.sonatype.oss:oss-parent:pom:7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.r2dbc:r2dbc-bom:pom:Arabba-SR4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/r2dbc/r2dbc-bom/Arabba-SR4/r2dbc-bom-Arabba-SR4.pom-[IJ]-artifactCoord=io.r2dbc:r2dbc-bom:pom:Arabba-SR4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.projectreactor:reactor-bom:pom:Dysprosium-SR8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/projectreactor/reactor-bom/Dysprosium-SR8/reactor-bom-Dysprosium-SR8.pom-[IJ]-artifactCoord=io.projectreactor:reactor-bom:pom:Dysprosium-SR8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.rsocket:rsocket-bom:pom:1.0.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/rsocket/rsocket-bom/1.0.1/rsocket-bom-1.0.1.pom-[IJ]-artifactCoord=io.rsocket:rsocket-bom:pom:1.0.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.data:spring-data-releasetrain:pom:Neumann-SR1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/data/spring-data-releasetrain/Neumann-SR1/spring-data-releasetrain-Neumann-SR1.pom-[IJ]-artifactCoord=org.springframework.data:spring-data-releasetrain:pom:Neumann-SR1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.data.build:spring-data-build:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/data/build/spring-data-build/2.3.1.RELEASE/spring-data-build-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.data.build:spring-data-build:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-framework-bom:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-framework-bom/5.2.7.RELEASE/spring-framework-bom-5.2.7.RELEASE.pom-[IJ]-artifactCoord=org.springframework:spring-framework-bom:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.integration:spring-integration-bom:pom:5.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/integration/spring-integration-bom/5.3.1.RELEASE/spring-integration-bom-5.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.integration:spring-integration-bom:pom:5.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.security:spring-security-bom:pom:5.3.3.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/security/spring-security-bom/5.3.3.RELEASE/spring-security-bom-5.3.3.RELEASE.pom-[IJ]-artifactCoord=org.springframework.security:spring-security-bom:pom:5.3.3.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.session:spring-session-bom:pom:Dragonfruit-RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/session/spring-session-bom/Dragonfruit-RELEASE/spring-session-bom-Dragonfruit-RELEASE.pom-[IJ]-artifactCoord=org.springframework.session:spring-session-bom:pom:Dragonfruit-RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.testcontainers:testcontainers-bom:pom:1.14.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/testcontainers/testcontainers-bom/1.14.2/testcontainers-bom-1.14.2.pom-[IJ]-artifactCoord=org.testcontainers:testcontainers-bom:pom:1.14.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-maven-plugin:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-maven-plugin/2.3.1.RELEASE/spring-boot-maven-plugin-2.3.1.RELEASE.jar-[IJ]-artifactCoord=org.springframework.boot:spring-boot-maven-plugin:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin:pom:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.14.0/maven-jaxb2-plugin-0.14.0.pom-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin:pom:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin-project:pom:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin-project/0.14.0/maven-jaxb2-plugin-project-0.14.0.pom-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin-project:pom:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin:jar:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.14.0/maven-jaxb2-plugin-0.14.0.jar-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin:jar:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-resources-plugin:pom:3.1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.1.0/maven-resources-plugin-3.1.0.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-resources-plugin:pom:3.1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:31-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/plugins/maven-plugins/31/maven-plugins-31.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:31-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:31-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-parent/31/maven-parent-31.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:31-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:19-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/apache/19/apache-19.pom-[IJ]-artifactCoord=org.apache:apache:pom:19-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-resources-plugin:jar:3.1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.1.0/maven-resources-plugin-3.1.0.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-resources-plugin:jar:3.1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-compiler-plugin:pom:3.8.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-compiler-plugin:pom:3.8.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:33-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:33-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:33-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-parent/33/maven-parent-33.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:33-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:21-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/apache/21/apache-21.pom-[IJ]-artifactCoord=org.apache:apache:pom:21-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.1-[IJ]-error=
+[IJ]-1-DependencyResolutionRequest-[IJ]-id=com.turkai:consume:jar:0.0.1-SNAPSHOT
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-thymeleaf:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/2.3.1.RELEASE/spring-boot-starter-thymeleaf-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-thymeleaf:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.1.RELEASE/spring-boot-starter-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot/2.3.1.RELEASE/spring-boot-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-core:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-core/5.2.7.RELEASE/spring-core-5.2.7.RELEASE.pom-[IJ]-artifactCoord=org.springframework:spring-core:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-jcl:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-jcl/5.2.7.RELEASE/spring-jcl-5.2.7.RELEASE.pom-[IJ]-artifactCoord=org.springframework:spring-jcl:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-context:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-context/5.2.7.RELEASE/spring-context-5.2.7.RELEASE.pom-[IJ]-artifactCoord=org.springframework:spring-context:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-aop:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-aop/5.2.7.RELEASE/spring-aop-5.2.7.RELEASE.pom-[IJ]-artifactCoord=org.springframework:spring-aop:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-beans:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE.pom-[IJ]-artifactCoord=org.springframework:spring-beans:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-expression:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-expression/5.2.7.RELEASE/spring-expression-5.2.7.RELEASE.pom-[IJ]-artifactCoord=org.springframework:spring-expression:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-autoconfigure:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.1.RELEASE/spring-boot-autoconfigure-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-autoconfigure:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-logging:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.1.RELEASE/spring-boot-starter-logging-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-logging:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=ch.qos.logback:logback-classic:pom:1.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom-[IJ]-artifactCoord=ch.qos.logback:logback-classic:pom:1.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=ch.qos.logback:logback-parent:pom:1.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom-[IJ]-artifactCoord=ch.qos.logback:logback-parent:pom:1.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=ch.qos.logback:logback-core:pom:1.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom-[IJ]-artifactCoord=ch.qos.logback:logback-core:pom:1.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.slf4j:slf4j-api:pom:1.7.30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom-[IJ]-artifactCoord=org.slf4j:slf4j-api:pom:1.7.30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.slf4j:slf4j-parent:pom:1.7.30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom-[IJ]-artifactCoord=org.slf4j:slf4j-parent:pom:1.7.30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.logging.log4j:log4j-to-slf4j:pom:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.pom-[IJ]-artifactCoord=org.apache.logging.log4j:log4j-to-slf4j:pom:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.logging.log4j:log4j:pom:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/logging/log4j/log4j/2.13.3/log4j-2.13.3.pom-[IJ]-artifactCoord=org.apache.logging.log4j:log4j:pom:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.logging.log4j:log4j-api:pom:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.pom-[IJ]-artifactCoord=org.apache.logging.log4j:log4j-api:pom:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.slf4j:jul-to-slf4j:pom:1.7.30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.pom-[IJ]-artifactCoord=org.slf4j:jul-to-slf4j:pom:1.7.30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=jakarta.annotation:jakarta.annotation-api:pom:1.3.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.pom-[IJ]-artifactCoord=jakarta.annotation:jakarta.annotation-api:pom:1.3.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=jakarta.annotation:ca-parent:pom:1.3.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/jakarta/annotation/ca-parent/1.3.5/ca-parent-1.3.5.pom-[IJ]-artifactCoord=jakarta.annotation:ca-parent:pom:1.3.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.yaml:snakeyaml:pom:1.26-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.pom-[IJ]-artifactCoord=org.yaml:snakeyaml:pom:1.26-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.thymeleaf:thymeleaf-spring5:pom:3.0.11.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.pom-[IJ]-artifactCoord=org.thymeleaf:thymeleaf-spring5:pom:3.0.11.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.thymeleaf:thymeleaf:pom:3.0.11.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/thymeleaf/thymeleaf/3.0.11.RELEASE/thymeleaf-3.0.11.RELEASE.pom-[IJ]-artifactCoord=org.thymeleaf:thymeleaf:pom:3.0.11.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.attoparser:attoparser:pom:2.0.5.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.pom-[IJ]-artifactCoord=org.attoparser:attoparser:pom:2.0.5.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.unbescape:unbescape:pom:1.1.6.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.pom-[IJ]-artifactCoord=org.unbescape:unbescape:pom:1.1.6.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.thymeleaf.extras:thymeleaf-extras-java8time:pom:3.0.4.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.pom-[IJ]-artifactCoord=org.thymeleaf.extras:thymeleaf-extras-java8time:pom:3.0.4.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=ognl:ognl:pom:3.1.12-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/ognl/ognl/3.1.12/ognl-3.1.12.pom-[IJ]-artifactCoord=ognl:ognl:pom:3.1.12-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.javassist:javassist:pom:3.20.0-GA-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.pom-[IJ]-artifactCoord=org.javassist:javassist:pom:3.20.0-GA-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-web:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.1.RELEASE/spring-boot-starter-web-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-web:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-json:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.1.RELEASE/spring-boot-starter-json-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-json:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-web:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE.pom-[IJ]-artifactCoord=org.springframework:spring-web:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson.core:jackson-databind:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.pom-[IJ]-artifactCoord=com.fasterxml.jackson.core:jackson-databind:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson:jackson-base:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/jackson-base/2.11.0/jackson-base-2.11.0.pom-[IJ]-artifactCoord=com.fasterxml.jackson:jackson-base:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson:jackson-bom:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/jackson-bom/2.11.0/jackson-bom-2.11.0.pom-[IJ]-artifactCoord=com.fasterxml.jackson:jackson-bom:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson.core:jackson-annotations:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.pom-[IJ]-artifactCoord=com.fasterxml.jackson.core:jackson-annotations:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson.core:jackson-core:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.pom-[IJ]-artifactCoord=com.fasterxml.jackson.core:jackson-core:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson.datatype:jackson-datatype-jdk8:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0.pom-[IJ]-artifactCoord=com.fasterxml.jackson.datatype:jackson-datatype-jdk8:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson.module:jackson-modules-java8:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/module/jackson-modules-java8/2.11.0/jackson-modules-java8-2.11.0.pom-[IJ]-artifactCoord=com.fasterxml.jackson.module:jackson-modules-java8:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson.datatype:jackson-datatype-jsr310:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0.pom-[IJ]-artifactCoord=com.fasterxml.jackson.datatype:jackson-datatype-jsr310:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson.module:jackson-module-parameter-names:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0.pom-[IJ]-artifactCoord=com.fasterxml.jackson.module:jackson-module-parameter-names:pom:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-tomcat:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.1.RELEASE/spring-boot-starter-tomcat-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-tomcat:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.tomcat.embed:tomcat-embed-core:pom:9.0.36-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.36/tomcat-embed-core-9.0.36.pom-[IJ]-artifactCoord=org.apache.tomcat.embed:tomcat-embed-core:pom:9.0.36-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish:jakarta.el:pom:3.0.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.pom-[IJ]-artifactCoord=org.glassfish:jakarta.el:pom:3.0.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.tomcat.embed:tomcat-embed-websocket:pom:9.0.36-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.36/tomcat-embed-websocket-9.0.36.pom-[IJ]-artifactCoord=org.apache.tomcat.embed:tomcat-embed-websocket:pom:9.0.36-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-webmvc:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-webmvc/5.2.7.RELEASE/spring-webmvc-5.2.7.RELEASE.pom-[IJ]-artifactCoord=org.springframework:spring-webmvc:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-devtools:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-devtools/2.3.1.RELEASE/spring-boot-devtools-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-devtools:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-test:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-test/5.2.7.RELEASE/spring-test-5.2.7.RELEASE.pom-[IJ]-artifactCoord=org.springframework:spring-test:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-test:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.3.1.RELEASE/spring-boot-starter-test-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-test:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-test:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-test/2.3.1.RELEASE/spring-boot-test-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-test:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-test-autoconfigure:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.3.1.RELEASE/spring-boot-test-autoconfigure-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-test-autoconfigure:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.jayway.jsonpath:json-path:pom:2.4.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.pom-[IJ]-artifactCoord=com.jayway.jsonpath:json-path:pom:2.4.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=net.minidev:json-smart:pom:2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.pom-[IJ]-artifactCoord=net.minidev:json-smart:pom:2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=net.minidev:minidev-parent:pom:2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/net/minidev/minidev-parent/2.3/minidev-parent-2.3.pom-[IJ]-artifactCoord=net.minidev:minidev-parent:pom:2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=net.minidev:accessors-smart:pom:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.pom-[IJ]-artifactCoord=net.minidev:accessors-smart:pom:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.ow2.asm:asm:pom:5.0.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom-[IJ]-artifactCoord=org.ow2.asm:asm:pom:5.0.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.ow2.asm:asm-parent:pom:5.0.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom-[IJ]-artifactCoord=org.ow2.asm:asm-parent:pom:5.0.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.ow2:ow2:pom:1.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/ow2/ow2/1.3/ow2-1.3.pom-[IJ]-artifactCoord=org.ow2:ow2:pom:1.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=jakarta.xml.bind:jakarta.xml.bind-api:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.pom-[IJ]-artifactCoord=jakarta.xml.bind:jakarta.xml.bind-api:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=jakarta.xml.bind:jakarta.xml.bind-api-parent:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api-parent/2.3.3/jakarta.xml.bind-api-parent-2.3.3.pom-[IJ]-artifactCoord=jakarta.xml.bind:jakarta.xml.bind-api-parent:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.eclipse.ee4j:project:pom:1.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom-[IJ]-artifactCoord=org.eclipse.ee4j:project:pom:1.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=jakarta.activation:jakarta.activation-api:pom:1.2.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.pom-[IJ]-artifactCoord=jakarta.activation:jakarta.activation-api:pom:1.2.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.activation:all:pom:1.2.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/activation/all/1.2.2/all-1.2.2.pom-[IJ]-artifactCoord=com.sun.activation:all:pom:1.2.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.assertj:assertj-core:pom:3.16.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/assertj/assertj-core/3.16.1/assertj-core-3.16.1.pom-[IJ]-artifactCoord=org.assertj:assertj-core:pom:3.16.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.assertj:assertj-parent-pom:pom:2.2.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/assertj/assertj-parent-pom/2.2.7/assertj-parent-pom-2.2.7.pom-[IJ]-artifactCoord=org.assertj:assertj-parent-pom:pom:2.2.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.hamcrest:hamcrest:pom:2.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.pom-[IJ]-artifactCoord=org.hamcrest:hamcrest:pom:2.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.junit.jupiter:junit-jupiter:pom:5.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.pom-[IJ]-artifactCoord=org.junit.jupiter:junit-jupiter:pom:5.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.junit.jupiter:junit-jupiter-api:pom:5.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.pom-[IJ]-artifactCoord=org.junit.jupiter:junit-jupiter-api:pom:5.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apiguardian:apiguardian-api:pom:1.1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom-[IJ]-artifactCoord=org.apiguardian:apiguardian-api:pom:1.1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.opentest4j:opentest4j:pom:1.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom-[IJ]-artifactCoord=org.opentest4j:opentest4j:pom:1.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.junit.platform:junit-platform-commons:pom:1.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.pom-[IJ]-artifactCoord=org.junit.platform:junit-platform-commons:pom:1.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.junit.jupiter:junit-jupiter-params:pom:5.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.pom-[IJ]-artifactCoord=org.junit.jupiter:junit-jupiter-params:pom:5.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.junit.jupiter:junit-jupiter-engine:pom:5.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.pom-[IJ]-artifactCoord=org.junit.jupiter:junit-jupiter-engine:pom:5.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.junit.platform:junit-platform-engine:pom:1.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.pom-[IJ]-artifactCoord=org.junit.platform:junit-platform-engine:pom:1.6.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.mockito:mockito-core:pom:3.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/mockito/mockito-core/3.3.3/mockito-core-3.3.3.pom-[IJ]-artifactCoord=org.mockito:mockito-core:pom:3.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=net.bytebuddy:byte-buddy:pom:1.10.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/net/bytebuddy/byte-buddy/1.10.11/byte-buddy-1.10.11.pom-[IJ]-artifactCoord=net.bytebuddy:byte-buddy:pom:1.10.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=net.bytebuddy:byte-buddy-parent:pom:1.10.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/net/bytebuddy/byte-buddy-parent/1.10.11/byte-buddy-parent-1.10.11.pom-[IJ]-artifactCoord=net.bytebuddy:byte-buddy-parent:pom:1.10.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=net.bytebuddy:byte-buddy-agent:pom:1.10.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.11/byte-buddy-agent-1.10.11.pom-[IJ]-artifactCoord=net.bytebuddy:byte-buddy-agent:pom:1.10.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.objenesis:objenesis:pom:2.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.pom-[IJ]-artifactCoord=org.objenesis:objenesis:pom:2.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.objenesis:objenesis-parent:pom:2.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom-[IJ]-artifactCoord=org.objenesis:objenesis-parent:pom:2.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.mockito:mockito-junit-jupiter:pom:3.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/mockito/mockito-junit-jupiter/3.3.3/mockito-junit-jupiter-3.3.3.pom-[IJ]-artifactCoord=org.mockito:mockito-junit-jupiter:pom:3.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.skyscreamer:jsonassert:pom:1.5.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.pom-[IJ]-artifactCoord=org.skyscreamer:jsonassert:pom:1.5.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.vaadin.external.google:android-json:pom:0.0.20131108.vaadin1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.pom-[IJ]-artifactCoord=com.vaadin.external.google:android-json:pom:0.0.20131108.vaadin1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.xmlunit:xmlunit-core:pom:2.7.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/xmlunit/xmlunit-core/2.7.0/xmlunit-core-2.7.0.pom-[IJ]-artifactCoord=org.xmlunit:xmlunit-core:pom:2.7.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.xmlunit:xmlunit-parent:pom:2.7.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/xmlunit/xmlunit-parent/2.7.0/xmlunit-parent-2.7.0.pom-[IJ]-artifactCoord=org.xmlunit:xmlunit-parent:pom:2.7.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-web-services:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-web-services/2.3.1.RELEASE/spring-boot-starter-web-services-2.3.1.RELEASE.pom-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-web-services:pom:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.messaging.saaj:saaj-impl:pom:1.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/messaging/saaj/saaj-impl/1.5.2/saaj-impl-1.5.2.pom-[IJ]-artifactCoord=com.sun.xml.messaging.saaj:saaj-impl:pom:1.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.messaging.saaj:metro-saaj:pom:1.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/messaging/saaj/metro-saaj/1.5.2/metro-saaj-1.5.2.pom-[IJ]-artifactCoord=com.sun.xml.messaging.saaj:metro-saaj:pom:1.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=jakarta.xml.soap:jakarta.xml.soap-api:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2/jakarta.xml.soap-api-1.4.2.pom-[IJ]-artifactCoord=jakarta.xml.soap:jakarta.xml.soap-api:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jvnet.staxex:stax-ex:pom:1.8.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jvnet/staxex/stax-ex/1.8.3/stax-ex-1.8.3.pom-[IJ]-artifactCoord=org.jvnet.staxex:stax-ex:pom:1.8.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.activation:jakarta.activation:pom:1.2.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.pom-[IJ]-artifactCoord=com.sun.activation:jakarta.activation:pom:1.2.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=jakarta.xml.ws:jakarta.xml.ws-api:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/jakarta/xml/ws/jakarta.xml.ws-api/2.3.3/jakarta.xml.ws-api-2.3.3.pom-[IJ]-artifactCoord=jakarta.xml.ws:jakarta.xml.ws-api:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=jakarta.jws:jakarta.jws-api:pom:2.1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/jakarta/jws/jakarta.jws-api/2.1.0/jakarta.jws-api-2.1.0.pom-[IJ]-artifactCoord=jakarta.jws:jakarta.jws-api:pom:2.1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-oxm:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-oxm/5.2.7.RELEASE/spring-oxm-5.2.7.RELEASE.pom-[IJ]-artifactCoord=org.springframework:spring-oxm:pom:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.ws:spring-ws-core:pom:3.0.9.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/ws/spring-ws-core/3.0.9.RELEASE/spring-ws-core-3.0.9.RELEASE.pom-[IJ]-artifactCoord=org.springframework.ws:spring-ws-core:pom:3.0.9.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.ws:spring-ws:pom:3.0.9.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/ws/spring-ws/3.0.9.RELEASE/spring-ws-3.0.9.RELEASE.pom-[IJ]-artifactCoord=org.springframework.ws:spring-ws:pom:3.0.9.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-framework-bom:pom:5.0.10.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-framework-bom/5.0.10.RELEASE/spring-framework-bom-5.0.10.RELEASE.pom-[IJ]-artifactCoord=org.springframework:spring-framework-bom:pom:5.0.10.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.security:spring-security-bom:pom:5.0.9.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/security/spring-security-bom/5.0.9.RELEASE/spring-security-bom-5.0.9.RELEASE.pom-[IJ]-artifactCoord=org.springframework.security:spring-security-bom:pom:5.0.9.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.ws:spring-xml:pom:3.0.9.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/ws/spring-xml/3.0.9.RELEASE/spring-xml-3.0.9.RELEASE.pom-[IJ]-artifactCoord=org.springframework.ws:spring-xml:pom:3.0.9.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-swagger2:pom:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2.pom-[IJ]-artifactCoord=io.springfox:springfox-swagger2:pom:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.swagger:swagger-annotations:pom:1.5.20-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.pom-[IJ]-artifactCoord=io.swagger:swagger-annotations:pom:1.5.20-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.swagger:swagger-project:pom:1.5.20-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/swagger/swagger-project/1.5.20/swagger-project-1.5.20.pom-[IJ]-artifactCoord=io.swagger:swagger-project:pom:1.5.20-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.oss:oss-parent:pom:5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/sonatype/oss/oss-parent/5/oss-parent-5.pom-[IJ]-artifactCoord=org.sonatype.oss:oss-parent:pom:5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.swagger:swagger-models:pom:1.5.20-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20.pom-[IJ]-artifactCoord=io.swagger:swagger-models:pom:1.5.20-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-spi:pom:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2.pom-[IJ]-artifactCoord=io.springfox:springfox-spi:pom:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-core:pom:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.pom-[IJ]-artifactCoord=io.springfox:springfox-core:pom:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.google.guava:guava:pom:20.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/google/guava/guava/20.0/guava-20.0.pom-[IJ]-artifactCoord=com.google.guava:guava:pom:20.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.google.guava:guava-parent:pom:20.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/google/guava/guava-parent/20.0/guava-parent-20.0.pom-[IJ]-artifactCoord=com.google.guava:guava-parent:pom:20.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml:classmate:pom:1.5.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.pom-[IJ]-artifactCoord=com.fasterxml:classmate:pom:1.5.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml:oss-parent:pom:35-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/oss-parent/35/oss-parent-35.pom-[IJ]-artifactCoord=com.fasterxml:oss-parent:pom:35-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.plugin:spring-plugin-core:pom:1.2.0.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.pom-[IJ]-artifactCoord=org.springframework.plugin:spring-plugin-core:pom:1.2.0.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.plugin:spring-plugin:pom:1.2.0.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/plugin/spring-plugin/1.2.0.RELEASE/spring-plugin-1.2.0.RELEASE.pom-[IJ]-artifactCoord=org.springframework.plugin:spring-plugin:pom:1.2.0.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.plugin:spring-plugin-metadata:pom:1.2.0.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.pom-[IJ]-artifactCoord=org.springframework.plugin:spring-plugin-metadata:pom:1.2.0.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-schema:pom:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2.pom-[IJ]-artifactCoord=io.springfox:springfox-schema:pom:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-swagger-common:pom:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2.pom-[IJ]-artifactCoord=io.springfox:springfox-swagger-common:pom:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-spring-web:pom:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.pom-[IJ]-artifactCoord=io.springfox:springfox-spring-web:pom:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.mapstruct:mapstruct:pom:1.2.0.Final-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final.pom-[IJ]-artifactCoord=org.mapstruct:mapstruct:pom:1.2.0.Final-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.mapstruct:mapstruct-parent:pom:1.2.0.Final-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/mapstruct/mapstruct-parent/1.2.0.Final/mapstruct-parent-1.2.0.Final.pom-[IJ]-artifactCoord=org.mapstruct:mapstruct-parent:pom:1.2.0.Final-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jboss.arquillian:arquillian-bom:pom:1.0.2.Final-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jboss/arquillian/arquillian-bom/1.0.2.Final/arquillian-bom-1.0.2.Final.pom-[IJ]-artifactCoord=org.jboss.arquillian:arquillian-bom:pom:1.0.2.Final-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jboss.shrinkwrap:shrinkwrap-bom:pom:1.0.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-bom/1.0.1/shrinkwrap-bom-1.0.1.pom-[IJ]-artifactCoord=org.jboss.shrinkwrap:shrinkwrap-bom:pom:1.0.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-bom:pom:1.0.0-beta-7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/1.0.0-beta-7/shrinkwrap-resolver-bom-1.0.0-beta-7.pom-[IJ]-artifactCoord=org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-bom:pom:1.0.0-beta-7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-bom:pom:2.0.0-alpha-3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-3/shrinkwrap-descriptors-bom-2.0.0-alpha-3.pom-[IJ]-artifactCoord=org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-bom:pom:2.0.0-alpha-3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-swagger-ui:pom:2.5.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-swagger-ui/2.5.0/springfox-swagger-ui-2.5.0.pom-[IJ]-artifactCoord=io.springfox:springfox-swagger-ui:pom:2.5.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-spring-web:pom:2.5.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-spring-web/2.5.0/springfox-spring-web-2.5.0.pom-[IJ]-artifactCoord=io.springfox:springfox-spring-web:pom:2.5.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.google.guava:guava:pom:18.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/google/guava/guava/18.0/guava-18.0.pom-[IJ]-artifactCoord=com.google.guava:guava:pom:18.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.google.guava:guava-parent:pom:18.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom-[IJ]-artifactCoord=com.google.guava:guava-parent:pom:18.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-spi:pom:2.5.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-spi/2.5.0/springfox-spi-2.5.0.pom-[IJ]-artifactCoord=io.springfox:springfox-spi:pom:2.5.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-core:pom:2.5.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-core/2.5.0/springfox-core-2.5.0.pom-[IJ]-artifactCoord=io.springfox:springfox-core:pom:2.5.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.jsonwebtoken:jjwt:pom:0.9.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.pom-[IJ]-artifactCoord=io.jsonwebtoken:jjwt:pom:0.9.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.commons:commons-lang3:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.pom-[IJ]-artifactCoord=org.apache.commons:commons-lang3:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.commons:commons-parent:pom:21-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/commons/commons-parent/21/commons-parent-21.pom-[IJ]-artifactCoord=org.apache.commons:commons-parent:pom:21-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/apache/9/apache-9.pom-[IJ]-artifactCoord=org.apache:apache:pom:9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=javax.xml.bind:jaxb-api:pom:2.3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.pom-[IJ]-artifactCoord=javax.xml.bind:jaxb-api:pom:2.3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=javax.xml.bind:jaxb-api-parent:pom:2.3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/javax/xml/bind/jaxb-api-parent/2.3.1/jaxb-api-parent-2.3.1.pom-[IJ]-artifactCoord=javax.xml.bind:jaxb-api-parent:pom:2.3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=net.java:jvnet-parent:pom:5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/net/java/jvnet-parent/5/jvnet-parent-5.pom-[IJ]-artifactCoord=net.java:jvnet-parent:pom:5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=javax.activation:javax.activation-api:pom:1.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom-[IJ]-artifactCoord=javax.activation:javax.activation-api:pom:1.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.activation:all:pom:1.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/activation/all/1.2.0/all-1.2.0.pom-[IJ]-artifactCoord=com.sun.activation:all:pom:1.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=net.java:jvnet-parent:pom:1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/net/java/jvnet-parent/1/jvnet-parent-1.pom-[IJ]-artifactCoord=net.java:jvnet-parent:pom:1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-runtime:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.3/jaxb-runtime-2.3.3.pom-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-runtime:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-runtime-parent:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.3/jaxb-runtime-parent-2.3.3.pom-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-runtime-parent:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-parent:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/bind/mvn/jaxb-parent/2.3.3/jaxb-parent-2.3.3.pom-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-parent:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.bind:jaxb-bom-ext:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/bind/jaxb-bom-ext/2.3.3/jaxb-bom-ext-2.3.3.pom-[IJ]-artifactCoord=com.sun.xml.bind:jaxb-bom-ext:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-bom:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/jaxb-bom/2.3.3/jaxb-bom-2.3.3.pom-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-bom:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:txw2:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/txw2/2.3.3/txw2-2.3.3.pom-[IJ]-artifactCoord=org.glassfish.jaxb:txw2:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-txw-parent:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/bind/mvn/jaxb-txw-parent/2.3.3/jaxb-txw-parent-2.3.3.pom-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-txw-parent:pom:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.istack:istack-commons-runtime:pom:3.0.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.11/istack-commons-runtime-3.0.11.pom-[IJ]-artifactCoord=com.sun.istack:istack-commons-runtime:pom:3.0.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.istack:istack-commons:pom:3.0.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/istack/istack-commons/3.0.11/istack-commons-3.0.11.pom-[IJ]-artifactCoord=com.sun.istack:istack-commons:pom:3.0.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/2.3.1.RELEASE/spring-boot-starter-thymeleaf-2.3.1.RELEASE.jar-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.1.RELEASE/spring-boot-starter-2.3.1.RELEASE.jar-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.1.RELEASE/spring-boot-starter-logging-2.3.1.RELEASE.jar-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=ch.qos.logback:logback-classic:jar:1.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar-[IJ]-artifactCoord=ch.qos.logback:logback-classic:jar:1.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=ch.qos.logback:logback-core:jar:1.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar-[IJ]-artifactCoord=ch.qos.logback:logback-core:jar:1.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar-[IJ]-artifactCoord=org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.logging.log4j:log4j-api:jar:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar-[IJ]-artifactCoord=org.apache.logging.log4j:log4j-api:jar:2.13.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.slf4j:jul-to-slf4j:jar:1.7.30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar-[IJ]-artifactCoord=org.slf4j:jul-to-slf4j:jar:1.7.30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=jakarta.annotation:jakarta.annotation-api:jar:1.3.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar-[IJ]-artifactCoord=jakarta.annotation:jakarta.annotation-api:jar:1.3.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.yaml:snakeyaml:jar:1.26-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar-[IJ]-artifactCoord=org.yaml:snakeyaml:jar:1.26-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar-[IJ]-artifactCoord=org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/thymeleaf/thymeleaf/3.0.11.RELEASE/thymeleaf-3.0.11.RELEASE.jar-[IJ]-artifactCoord=org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.attoparser:attoparser:jar:2.0.5.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar-[IJ]-artifactCoord=org.attoparser:attoparser:jar:2.0.5.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.unbescape:unbescape:jar:1.1.6.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar-[IJ]-artifactCoord=org.unbescape:unbescape:jar:1.1.6.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.4.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.jar-[IJ]-artifactCoord=org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.4.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.1.RELEASE/spring-boot-starter-web-2.3.1.RELEASE.jar-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.1.RELEASE/spring-boot-starter-json-2.3.1.RELEASE.jar-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0.jar-[IJ]-artifactCoord=com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0.jar-[IJ]-artifactCoord=com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0.jar-[IJ]-artifactCoord=com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.1.RELEASE/spring-boot-starter-tomcat-2.3.1.RELEASE.jar-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.36-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.36/tomcat-embed-core-9.0.36.jar-[IJ]-artifactCoord=org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.36-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish:jakarta.el:jar:3.0.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar-[IJ]-artifactCoord=org.glassfish:jakarta.el:jar:3.0.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.36-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.36/tomcat-embed-websocket-9.0.36.jar-[IJ]-artifactCoord=org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.36-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-web:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE.jar-[IJ]-artifactCoord=org.springframework:spring-web:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-beans:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE.jar-[IJ]-artifactCoord=org.springframework:spring-beans:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-webmvc:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-webmvc/5.2.7.RELEASE/spring-webmvc-5.2.7.RELEASE.jar-[IJ]-artifactCoord=org.springframework:spring-webmvc:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-aop:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-aop/5.2.7.RELEASE/spring-aop-5.2.7.RELEASE.jar-[IJ]-artifactCoord=org.springframework:spring-aop:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-context:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-context/5.2.7.RELEASE/spring-context-5.2.7.RELEASE.jar-[IJ]-artifactCoord=org.springframework:spring-context:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-expression:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-expression/5.2.7.RELEASE/spring-expression-5.2.7.RELEASE.jar-[IJ]-artifactCoord=org.springframework:spring-expression:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot/2.3.1.RELEASE/spring-boot-2.3.1.RELEASE.jar-[IJ]-artifactCoord=org.springframework.boot:spring-boot:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.1.RELEASE/spring-boot-autoconfigure-2.3.1.RELEASE.jar-[IJ]-artifactCoord=org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-test:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-test/5.2.7.RELEASE/spring-test-5.2.7.RELEASE.jar-[IJ]-artifactCoord=org.springframework:spring-test:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-core:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-core/5.2.7.RELEASE/spring-core-5.2.7.RELEASE.jar-[IJ]-artifactCoord=org.springframework:spring-core:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-jcl:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-jcl/5.2.7.RELEASE/spring-jcl-5.2.7.RELEASE.jar-[IJ]-artifactCoord=org.springframework:spring-jcl:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar-[IJ]-artifactCoord=jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=jakarta.activation:jakarta.activation-api:jar:1.2.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar-[IJ]-artifactCoord=jakarta.activation:jakarta.activation-api:jar:1.2.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=net.bytebuddy:byte-buddy:jar:1.10.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/net/bytebuddy/byte-buddy/1.10.11/byte-buddy-1.10.11.jar-[IJ]-artifactCoord=net.bytebuddy:byte-buddy:jar:1.10.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-web-services:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/boot/spring-boot-starter-web-services/2.3.1.RELEASE/spring-boot-starter-web-services-2.3.1.RELEASE.jar-[IJ]-artifactCoord=org.springframework.boot:spring-boot-starter-web-services:jar:2.3.1.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.messaging.saaj:saaj-impl:jar:1.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/messaging/saaj/saaj-impl/1.5.2/saaj-impl-1.5.2.jar-[IJ]-artifactCoord=com.sun.xml.messaging.saaj:saaj-impl:jar:1.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=jakarta.xml.soap:jakarta.xml.soap-api:jar:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2/jakarta.xml.soap-api-1.4.2.jar-[IJ]-artifactCoord=jakarta.xml.soap:jakarta.xml.soap-api:jar:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jvnet.staxex:stax-ex:jar:1.8.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jvnet/staxex/stax-ex/1.8.3/stax-ex-1.8.3.jar-[IJ]-artifactCoord=org.jvnet.staxex:stax-ex:jar:1.8.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=jakarta.xml.ws:jakarta.xml.ws-api:jar:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/jakarta/xml/ws/jakarta.xml.ws-api/2.3.3/jakarta.xml.ws-api-2.3.3.jar-[IJ]-artifactCoord=jakarta.xml.ws:jakarta.xml.ws-api:jar:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework:spring-oxm:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/spring-oxm/5.2.7.RELEASE/spring-oxm-5.2.7.RELEASE.jar-[IJ]-artifactCoord=org.springframework:spring-oxm:jar:5.2.7.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.ws:spring-ws-core:jar:3.0.9.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/ws/spring-ws-core/3.0.9.RELEASE/spring-ws-core-3.0.9.RELEASE.jar-[IJ]-artifactCoord=org.springframework.ws:spring-ws-core:jar:3.0.9.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.ws:spring-xml:jar:3.0.9.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/ws/spring-xml/3.0.9.RELEASE/spring-xml-3.0.9.RELEASE.jar-[IJ]-artifactCoord=org.springframework.ws:spring-xml:jar:3.0.9.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-swagger2:jar:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2.jar-[IJ]-artifactCoord=io.springfox:springfox-swagger2:jar:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.swagger:swagger-annotations:jar:1.5.20-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar-[IJ]-artifactCoord=io.swagger:swagger-annotations:jar:1.5.20-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.swagger:swagger-models:jar:1.5.20-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20.jar-[IJ]-artifactCoord=io.swagger:swagger-models:jar:1.5.20-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar-[IJ]-artifactCoord=com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-spi:jar:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2.jar-[IJ]-artifactCoord=io.springfox:springfox-spi:jar:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-core:jar:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar-[IJ]-artifactCoord=io.springfox:springfox-core:jar:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-schema:jar:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2.jar-[IJ]-artifactCoord=io.springfox:springfox-schema:jar:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-swagger-common:jar:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2.jar-[IJ]-artifactCoord=io.springfox:springfox-swagger-common:jar:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-spring-web:jar:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar-[IJ]-artifactCoord=io.springfox:springfox-spring-web:jar:2.9.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.google.guava:guava:jar:20.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/google/guava/guava/20.0/guava-20.0.jar-[IJ]-artifactCoord=com.google.guava:guava:jar:20.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml:classmate:jar:1.5.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar-[IJ]-artifactCoord=com.fasterxml:classmate:jar:1.5.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.slf4j:slf4j-api:jar:1.7.30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar-[IJ]-artifactCoord=org.slf4j:slf4j-api:jar:1.7.30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar-[IJ]-artifactCoord=org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar-[IJ]-artifactCoord=org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.mapstruct:mapstruct:jar:1.2.0.Final-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final.jar-[IJ]-artifactCoord=org.mapstruct:mapstruct:jar:1.2.0.Final-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.springfox:springfox-swagger-ui:jar:2.5.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/springfox/springfox-swagger-ui/2.5.0/springfox-swagger-ui-2.5.0.jar-[IJ]-artifactCoord=io.springfox:springfox-swagger-ui:jar:2.5.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=io.jsonwebtoken:jjwt:jar:0.9.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar-[IJ]-artifactCoord=io.jsonwebtoken:jjwt:jar:0.9.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson.core:jackson-databind:jar:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar-[IJ]-artifactCoord=com.fasterxml.jackson.core:jackson-databind:jar:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.fasterxml.jackson.core:jackson-core:jar:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar-[IJ]-artifactCoord=com.fasterxml.jackson.core:jackson-core:jar:2.11.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.commons:commons-lang3:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar-[IJ]-artifactCoord=org.apache.commons:commons-lang3:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=javax.xml.bind:jaxb-api:jar:2.3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar-[IJ]-artifactCoord=javax.xml.bind:jaxb-api:jar:2.3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=javax.activation:javax.activation-api:jar:1.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar-[IJ]-artifactCoord=javax.activation:javax.activation-api:jar:1.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-runtime:jar:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.3/jaxb-runtime-2.3.3.jar-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-runtime:jar:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:txw2:jar:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/txw2/2.3.3/txw2-2.3.3.jar-[IJ]-artifactCoord=org.glassfish.jaxb:txw2:jar:2.3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.istack:istack-commons-runtime:jar:3.0.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.11/istack-commons-runtime-3.0.11.jar-[IJ]-artifactCoord=com.sun.istack:istack-commons-runtime:jar:3.0.11-[IJ]-error=
+[IJ]-1-DependencyResolutionResult-[IJ]-error=
+[IJ]-1-MojoStarted-[IJ]-source=LIFECYCLE-[IJ]-goal=generate-[IJ]-id=com.turkai:consume:jar:0.0.1-SNAPSHOT-[IJ]-error=
+[INFO] 
+[INFO] --- maven-jaxb2-plugin:0.14.0:generate (2) @ consume ---
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin:pom:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.14.0/maven-jaxb2-plugin-0.14.0.pom-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin:pom:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin-core:pom:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin-core/0.14.0/maven-jaxb2-plugin-core-0.14.0.pom-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin-core:pom:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.slf4j:slf4j-api:pom:1.7.25-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom-[IJ]-artifactCoord=org.slf4j:slf4j-api:pom:1.7.25-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.slf4j:slf4j-parent:pom:1.7.25-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom-[IJ]-artifactCoord=org.slf4j:slf4j-parent:pom:1.7.25-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.commons:commons-lang3:pom:3.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.pom-[IJ]-artifactCoord=org.apache.commons:commons-lang3:pom:3.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.commons:commons-parent:pom:32-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/commons/commons-parent/32/commons-parent-32.pom-[IJ]-artifactCoord=org.apache.commons:commons-parent:pom:32-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:13-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/apache/13/apache-13.pom-[IJ]-artifactCoord=org.apache:apache:pom:13-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.org.apache.xml.internal:resolver:pom:20050927-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/org/apache/xml/internal/resolver/20050927/resolver-20050927.pom-[IJ]-artifactCoord=com.sun.org.apache.xml.internal:resolver:pom:20050927-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:txw2:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/txw2/2.3.0/txw2-2.3.0.pom-[IJ]-artifactCoord=org.glassfish.jaxb:txw2:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-txw-parent:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/bind/mvn/jaxb-txw-parent/2.3.0/jaxb-txw-parent-2.3.0.pom-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-txw-parent:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-parent:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/bind/mvn/jaxb-parent/2.3.0/jaxb-parent-2.3.0.pom-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-parent:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.bind:jaxb-bom-ext:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/bind/jaxb-bom-ext/2.3.0/jaxb-bom-ext-2.3.0.pom-[IJ]-artifactCoord=com.sun.xml.bind:jaxb-bom-ext:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-bom:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/jaxb-bom/2.3.0/jaxb-bom-2.3.0.pom-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-bom:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven/2.0.9/maven-2.0.9.pom-[IJ]-artifactCoord=org.apache.maven:maven:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-parent/8/maven-parent-8.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/apache/4/apache-4.pom-[IJ]-artifactCoord=org.apache:apache:pom:4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.plexus:plexus-build-api:pom:0.0.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom-[IJ]-artifactCoord=org.sonatype.plexus:plexus-build-api:pom:0.0.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.spice:spice-parent:pom:15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/sonatype/spice/spice-parent/15/spice-parent-15.pom-[IJ]-artifactCoord=org.sonatype.spice:spice-parent:pom:15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.forge:forge-parent:pom:5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/sonatype/forge/forge-parent/5/forge-parent-5.pom-[IJ]-artifactCoord=org.sonatype.forge:forge-parent:pom:5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.5.15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.5.15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:2.0.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:2.0.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-project:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom-[IJ]-artifactCoord=org.apache.maven:maven-project:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-settings:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom-[IJ]-artifactCoord=org.apache.maven:maven-settings:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:pom:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:pom:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-containers:pom:1.0.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-containers:pom:1.0.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=junit:junit:pom:4.8.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/junit/junit/4.8.1/junit-4.8.1.pom-[IJ]-artifactCoord=junit:junit:pom:4.8.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=classworlds:classworlds:pom:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom-[IJ]-artifactCoord=classworlds:classworlds:pom:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-profile:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom-[IJ]-artifactCoord=org.apache.maven:maven-profile:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom-[IJ]-artifactCoord=org.apache.maven:maven-artifact:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:pom:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-annotations:pom:3.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5/maven-plugin-annotations-3.5.pom-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-annotations:pom:3.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools:pom:3.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-tools/3.5/maven-plugin-tools-3.5.pom-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools:pom:3.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-parent/30/maven-parent-30.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb23-plugin:pom:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jvnet/jaxb2/maven2/maven-jaxb23-plugin/0.14.0/maven-jaxb23-plugin-0.14.0.pom-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb23-plugin:pom:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-runtime:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/jaxb-runtime-2.3.0.pom-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-runtime:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-runtime-parent:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.0/jaxb-runtime-parent-2.3.0.pom-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-runtime-parent:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-core:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0/jaxb-core-2.3.0.pom-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-core:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=javax.xml.bind:jaxb-api:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.pom-[IJ]-artifactCoord=javax.xml.bind:jaxb-api:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=javax.xml.bind:jaxb-api-parent:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/javax/xml/bind/jaxb-api-parent/2.3.0/jaxb-api-parent-2.3.0.pom-[IJ]-artifactCoord=javax.xml.bind:jaxb-api-parent:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.istack:istack-commons-runtime:pom:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.5/istack-commons-runtime-3.0.5.pom-[IJ]-artifactCoord=com.sun.istack:istack-commons-runtime:pom:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.istack:istack-commons:pom:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/istack/istack-commons/3.0.5/istack-commons-3.0.5.pom-[IJ]-artifactCoord=com.sun.istack:istack-commons:pom:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jvnet.staxex:stax-ex:pom:1.7.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jvnet/staxex/stax-ex/1.7.8/stax-ex-1.7.8.pom-[IJ]-artifactCoord=org.jvnet.staxex:stax-ex:pom:1.7.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=net.java:jvnet-parent:pom:3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/net/java/jvnet-parent/3/jvnet-parent-3.pom-[IJ]-artifactCoord=net.java:jvnet-parent:pom:3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.fastinfoset:FastInfoset:pom:1.2.13-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.13/FastInfoset-1.2.13.pom-[IJ]-artifactCoord=com.sun.xml.fastinfoset:FastInfoset:pom:1.2.13-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.fastinfoset:fastinfoset-project:pom:1.2.13-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/fastinfoset/fastinfoset-project/1.2.13/fastinfoset-project-1.2.13.pom-[IJ]-artifactCoord=com.sun.xml.fastinfoset:fastinfoset-project:pom:1.2.13-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-xjc-jdk9:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-jdk9-2.3.0.pom-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-xjc-jdk9:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-xjc:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/jaxb-xjc/2.3.0/jaxb-xjc-2.3.0.pom-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-xjc:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:xsom:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/xsom/2.3.0/xsom-2.3.0.pom-[IJ]-artifactCoord=org.glassfish.jaxb:xsom:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=relaxngDatatype:relaxngDatatype:pom:20020414-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/relaxngDatatype/relaxngDatatype/20020414/relaxngDatatype-20020414.pom-[IJ]-artifactCoord=relaxngDatatype:relaxngDatatype:pom:20020414-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:codemodel:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/codemodel/2.3.0/codemodel-2.3.0.pom-[IJ]-artifactCoord=org.glassfish.jaxb:codemodel:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-codemodel-parent:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/bind/mvn/jaxb-codemodel-parent/2.3.0/jaxb-codemodel-parent-2.3.0.pom-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-codemodel-parent:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.bind.external:rngom:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/rngom-2.3.0.pom-[IJ]-artifactCoord=com.sun.xml.bind.external:rngom:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-external-parent:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/bind/mvn/jaxb-external-parent/2.3.0/jaxb-external-parent-2.3.0.pom-[IJ]-artifactCoord=com.sun.xml.bind.mvn:jaxb-external-parent:pom:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.dtd-parser:dtd-parser:pom:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/dtd-parser/dtd-parser/1.2/dtd-parser-1.2.pom-[IJ]-artifactCoord=com.sun.xml.dtd-parser:dtd-parser:pom:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.istack:istack-commons-tools:pom:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/istack/istack-commons-tools/3.0.5/istack-commons-tools-3.0.5.pom-[IJ]-artifactCoord=com.sun.istack:istack-commons-tools:pom:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.activation:javax.activation:pom:1.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.pom-[IJ]-artifactCoord=com.sun.activation:javax.activation:pom:1.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin:jar:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.14.0/maven-jaxb2-plugin-0.14.0.jar-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin:jar:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin-core:jar:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin-core/0.14.0/maven-jaxb2-plugin-core-0.14.0.jar-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb2-plugin-core:jar:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.slf4j:slf4j-api:jar:1.7.25-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar-[IJ]-artifactCoord=org.slf4j:slf4j-api:jar:1.7.25-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.commons:commons-lang3:jar:3.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar-[IJ]-artifactCoord=org.apache.commons:commons-lang3:jar:3.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.org.apache.xml.internal:resolver:jar:20050927-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/org/apache/xml/internal/resolver/20050927/resolver-20050927.jar-[IJ]-artifactCoord=com.sun.org.apache.xml.internal:resolver:jar:20050927-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:txw2:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/txw2/2.3.0/txw2-2.3.0.jar-[IJ]-artifactCoord=org.glassfish.jaxb:txw2:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.plexus:plexus-build-api:jar:0.0.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar-[IJ]-artifactCoord=org.sonatype.plexus:plexus-build-api:jar:0.0.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-project:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar-[IJ]-artifactCoord=org.apache.maven:maven-project:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-settings:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar-[IJ]-artifactCoord=org.apache.maven:maven-settings:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-profile:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar-[IJ]-artifactCoord=org.apache.maven:maven-profile:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar-[IJ]-artifactCoord=org.apache.maven:maven-model:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=junit:junit:jar:4.8.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar-[IJ]-artifactCoord=junit:junit:jar:4.8.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=classworlds:classworlds:jar:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar-[IJ]-artifactCoord=classworlds:classworlds:jar:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:jar:1.5.15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:jar:1.5.15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb23-plugin:jar:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jvnet/jaxb2/maven2/maven-jaxb23-plugin/0.14.0/maven-jaxb23-plugin-0.14.0.jar-[IJ]-artifactCoord=org.jvnet.jaxb2.maven2:maven-jaxb23-plugin:jar:0.14.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-runtime:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/jaxb-runtime-2.3.0.jar-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-runtime:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-core:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0/jaxb-core-2.3.0.jar-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-core:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=javax.xml.bind:jaxb-api:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar-[IJ]-artifactCoord=javax.xml.bind:jaxb-api:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jvnet.staxex:stax-ex:jar:1.7.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/jvnet/staxex/stax-ex/1.7.8/stax-ex-1.7.8.jar-[IJ]-artifactCoord=org.jvnet.staxex:stax-ex:jar:1.7.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.fastinfoset:FastInfoset:jar:1.2.13-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.13/FastInfoset-1.2.13.jar-[IJ]-artifactCoord=com.sun.xml.fastinfoset:FastInfoset:jar:1.2.13-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-xjc-jdk9:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-jdk9-2.3.0.jar-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-xjc-jdk9:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-xjc:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/jaxb-xjc/2.3.0/jaxb-xjc-2.3.0.jar-[IJ]-artifactCoord=org.glassfish.jaxb:jaxb-xjc:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.dtd-parser:dtd-parser:jar:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/dtd-parser/dtd-parser/1.2/dtd-parser-1.2.jar-[IJ]-artifactCoord=com.sun.xml.dtd-parser:dtd-parser:jar:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:xsom:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/xsom/2.3.0/xsom-2.3.0.jar-[IJ]-artifactCoord=org.glassfish.jaxb:xsom:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.glassfish.jaxb:codemodel:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/glassfish/jaxb/codemodel/2.3.0/codemodel-2.3.0.jar-[IJ]-artifactCoord=org.glassfish.jaxb:codemodel:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.xml.bind.external:rngom:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/rngom-2.3.0.jar-[IJ]-artifactCoord=com.sun.xml.bind.external:rngom:jar:2.3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.istack:istack-commons-tools:jar:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/istack/istack-commons-tools/3.0.5/istack-commons-tools-3.0.5.jar-[IJ]-artifactCoord=com.sun.istack:istack-commons-tools:jar:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.istack:istack-commons-runtime:jar:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.5/istack-commons-runtime-3.0.5.jar-[IJ]-artifactCoord=com.sun.istack:istack-commons-runtime:jar:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=relaxngDatatype:relaxngDatatype:jar:20020414-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/relaxngDatatype/relaxngDatatype/20020414/relaxngDatatype-20020414.jar-[IJ]-artifactCoord=relaxngDatatype:relaxngDatatype:jar:20020414-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.sun.activation:javax.activation:jar:1.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar-[IJ]-artifactCoord=com.sun.activation:javax.activation:jar:1.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5/maven-plugin-annotations-3.5.jar-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact:jar:2.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=/home/turkai/.m2/repository/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.jar-[IJ]-artifactCoord=org.apache.maven:maven-artifact:jar:2.0.9-[IJ]-error=
+[ERROR] URI [/home/turkai/Desktop/SoapClient/src/main/resources/wsdl/mernis-service.wsdl] does not provide the scheme part.
+[ERROR] Could not resolve the last modification of the URI [/home/turkai/Desktop/SoapClient/src/main/resources/wsdl/mernis-service.wsdl] with the scheme [null].
+[WARNING] Last modification of the URI [/home/turkai/Desktop/SoapClient/src/main/resources/wsdl/mernis-service.wsdl] is not known.
+[INFO] Sources are not up-to-date, XJC will be executed.
+[INFO] Episode file [/home/turkai/Desktop/SoapClient/target/generated-sources/xjc/META-INF/sun-jaxb.episode] was augmented with if-exists="true" attributes.
+[IJ]-1-MojoSucceeded-[IJ]-source=LIFECYCLE-[IJ]-goal=generate-[IJ]-id=com.turkai:consume:jar:0.0.1-SNAPSHOT-[IJ]-error=
+[IJ]-1-MojoStarted-[IJ]-source=LIFECYCLE-[IJ]-goal=generate-[IJ]-id=com.turkai:consume:jar:0.0.1-SNAPSHOT-[IJ]-error=
+[INFO] 
+[INFO] --- maven-jaxb2-plugin:0.14.0:generate (1) @ consume ---
+[ERROR] URI [/home/turkai/Desktop/SoapClient/src/main/resources/wsdl/kullanici-service.wsdl] does not provide the scheme part.
+[ERROR] Could not resolve the last modification of the URI [/home/turkai/Desktop/SoapClient/src/main/resources/wsdl/kullanici-service.wsdl] with the scheme [null].
+[WARNING] Last modification of the URI [/home/turkai/Desktop/SoapClient/src/main/resources/wsdl/kullanici-service.wsdl] is not known.
+[INFO] Sources are not up-to-date, XJC will be executed.
+[ERROR] Error while parsing schema(s).Location [].
+com.sun.istack.SAXParseException2: IOException thrown when processing "https://servis.jandarma.gov.tr/KullaniciWebServis/KullaniciServis.svc?xsd=xsd0". Exception: java.net.UnknownHostException: servis.jandarma.gov.tr.
+    at com.sun.tools.xjc.ErrorReceiver.error (ErrorReceiver.java:94)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:403)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:302)
+    at com.sun.tools.xjc.reader.internalizer.AbstractReferenceFinderImpl.startElement (AbstractReferenceFinderImpl.java:116)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement (AbstractSAXParser.java:510)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement (AbstractXMLDocumentParser.java:183)
+    at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement (XMLNSDocumentScannerImpl.java:351)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next (XMLDocumentFragmentScannerImpl.java:2710)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next (XMLDocumentScannerImpl.java:605)
+    at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next (XMLNSDocumentScannerImpl.java:112)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument (XMLDocumentFragmentScannerImpl.java:534)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:888)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:824)
+    at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse (XMLParser.java:141)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse (AbstractSAXParser.java:1216)
+    at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse (SAXParserImpl.java:635)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:395)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:275)
+    at com.sun.tools.xjc.ModelLoader.buildDOMForest (ModelLoader.java:306)
+    at com.sun.tools.xjc.ModelLoader.loadWSDL (ModelLoader.java:373)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:158)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:117)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.loadModel (XJC23Mojo.java:50)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:40)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:28)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.doExecute (RawXJC2Mojo.java:478)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.execute (RawXJC2Mojo.java:320)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at org.codehaus.classworlds.Launcher.main (Launcher.java:47)
+Caused by: java.net.UnknownHostException: servis.jandarma.gov.tr
+    at java.net.AbstractPlainSocketImpl.connect (AbstractPlainSocketImpl.java:220)
+    at java.net.SocksSocketImpl.connect (SocksSocketImpl.java:403)
+    at java.net.Socket.connect (Socket.java:609)
+    at sun.security.ssl.SSLSocketImpl.connect (SSLSocketImpl.java:285)
+    at sun.security.ssl.BaseSSLSocketImpl.connect (BaseSSLSocketImpl.java:173)
+    at sun.net.NetworkClient.doConnect (NetworkClient.java:182)
+    at sun.net.www.http.HttpClient.openServer (HttpClient.java:474)
+    at sun.net.www.http.HttpClient.openServer (HttpClient.java:569)
+    at sun.net.www.protocol.https.HttpsClient.<init> (HttpsClient.java:265)
+    at sun.net.www.protocol.https.HttpsClient.New (HttpsClient.java:372)
+    at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient (AbstractDelegateHttpsURLConnection.java:191)
+    at sun.net.www.protocol.http.HttpURLConnection.plainConnect0 (HttpURLConnection.java:1187)
+    at sun.net.www.protocol.http.HttpURLConnection.plainConnect (HttpURLConnection.java:1081)
+    at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect (AbstractDelegateHttpsURLConnection.java:177)
+    at sun.net.www.protocol.http.HttpURLConnection.getInputStream0 (HttpURLConnection.java:1587)
+    at sun.net.www.protocol.http.HttpURLConnection.getInputStream (HttpURLConnection.java:1515)
+    at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream (HttpsURLConnectionImpl.java:250)
+    at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity (XMLEntityManager.java:676)
+    at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion (XMLVersionDetector.java:150)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:860)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:824)
+    at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse (XMLParser.java:141)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse (AbstractSAXParser.java:1216)
+    at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse (SAXParserImpl.java:635)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:395)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:302)
+    at com.sun.tools.xjc.reader.internalizer.AbstractReferenceFinderImpl.startElement (AbstractReferenceFinderImpl.java:116)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement (AbstractSAXParser.java:510)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement (AbstractXMLDocumentParser.java:183)
+    at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement (XMLNSDocumentScannerImpl.java:351)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next (XMLDocumentFragmentScannerImpl.java:2710)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next (XMLDocumentScannerImpl.java:605)
+    at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next (XMLNSDocumentScannerImpl.java:112)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument (XMLDocumentFragmentScannerImpl.java:534)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:888)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:824)
+    at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse (XMLParser.java:141)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse (AbstractSAXParser.java:1216)
+    at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse (SAXParserImpl.java:635)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:395)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:275)
+    at com.sun.tools.xjc.ModelLoader.buildDOMForest (ModelLoader.java:306)
+    at com.sun.tools.xjc.ModelLoader.loadWSDL (ModelLoader.java:373)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:158)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:117)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.loadModel (XJC23Mojo.java:50)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:40)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:28)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.doExecute (RawXJC2Mojo.java:478)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.execute (RawXJC2Mojo.java:320)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at org.codehaus.classworlds.Launcher.main (Launcher.java:47)
+[ERROR] Error while parsing schema(s).Location [].
+com.sun.istack.SAXParseException2: IOException thrown when processing "https://servis.jandarma.gov.tr/KullaniciWebServis/KullaniciServis.svc?xsd=xsd1". Exception: java.net.UnknownHostException: servis.jandarma.gov.tr.
+    at com.sun.tools.xjc.ErrorReceiver.error (ErrorReceiver.java:94)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:403)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:302)
+    at com.sun.tools.xjc.reader.internalizer.AbstractReferenceFinderImpl.startElement (AbstractReferenceFinderImpl.java:116)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement (AbstractSAXParser.java:510)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement (AbstractXMLDocumentParser.java:183)
+    at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement (XMLNSDocumentScannerImpl.java:351)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next (XMLDocumentFragmentScannerImpl.java:2710)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next (XMLDocumentScannerImpl.java:605)
+    at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next (XMLNSDocumentScannerImpl.java:112)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument (XMLDocumentFragmentScannerImpl.java:534)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:888)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:824)
+    at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse (XMLParser.java:141)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse (AbstractSAXParser.java:1216)
+    at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse (SAXParserImpl.java:635)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:395)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:275)
+    at com.sun.tools.xjc.ModelLoader.buildDOMForest (ModelLoader.java:306)
+    at com.sun.tools.xjc.ModelLoader.loadWSDL (ModelLoader.java:373)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:158)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:117)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.loadModel (XJC23Mojo.java:50)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:40)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:28)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.doExecute (RawXJC2Mojo.java:478)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.execute (RawXJC2Mojo.java:320)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at org.codehaus.classworlds.Launcher.main (Launcher.java:47)
+Caused by: java.net.UnknownHostException: servis.jandarma.gov.tr
+    at java.net.AbstractPlainSocketImpl.connect (AbstractPlainSocketImpl.java:220)
+    at java.net.SocksSocketImpl.connect (SocksSocketImpl.java:403)
+    at java.net.Socket.connect (Socket.java:609)
+    at sun.security.ssl.SSLSocketImpl.connect (SSLSocketImpl.java:285)
+    at sun.security.ssl.BaseSSLSocketImpl.connect (BaseSSLSocketImpl.java:173)
+    at sun.net.NetworkClient.doConnect (NetworkClient.java:182)
+    at sun.net.www.http.HttpClient.openServer (HttpClient.java:474)
+    at sun.net.www.http.HttpClient.openServer (HttpClient.java:569)
+    at sun.net.www.protocol.https.HttpsClient.<init> (HttpsClient.java:265)
+    at sun.net.www.protocol.https.HttpsClient.New (HttpsClient.java:372)
+    at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient (AbstractDelegateHttpsURLConnection.java:191)
+    at sun.net.www.protocol.http.HttpURLConnection.plainConnect0 (HttpURLConnection.java:1187)
+    at sun.net.www.protocol.http.HttpURLConnection.plainConnect (HttpURLConnection.java:1081)
+    at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect (AbstractDelegateHttpsURLConnection.java:177)
+    at sun.net.www.protocol.http.HttpURLConnection.getInputStream0 (HttpURLConnection.java:1587)
+    at sun.net.www.protocol.http.HttpURLConnection.getInputStream (HttpURLConnection.java:1515)
+    at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream (HttpsURLConnectionImpl.java:250)
+    at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity (XMLEntityManager.java:676)
+    at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion (XMLVersionDetector.java:150)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:860)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:824)
+    at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse (XMLParser.java:141)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse (AbstractSAXParser.java:1216)
+    at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse (SAXParserImpl.java:635)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:395)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:302)
+    at com.sun.tools.xjc.reader.internalizer.AbstractReferenceFinderImpl.startElement (AbstractReferenceFinderImpl.java:116)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement (AbstractSAXParser.java:510)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement (AbstractXMLDocumentParser.java:183)
+    at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement (XMLNSDocumentScannerImpl.java:351)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next (XMLDocumentFragmentScannerImpl.java:2710)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next (XMLDocumentScannerImpl.java:605)
+    at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next (XMLNSDocumentScannerImpl.java:112)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument (XMLDocumentFragmentScannerImpl.java:534)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:888)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:824)
+    at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse (XMLParser.java:141)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse (AbstractSAXParser.java:1216)
+    at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse (SAXParserImpl.java:635)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:395)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:275)
+    at com.sun.tools.xjc.ModelLoader.buildDOMForest (ModelLoader.java:306)
+    at com.sun.tools.xjc.ModelLoader.loadWSDL (ModelLoader.java:373)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:158)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:117)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.loadModel (XJC23Mojo.java:50)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:40)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:28)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.doExecute (RawXJC2Mojo.java:478)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.execute (RawXJC2Mojo.java:320)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at org.codehaus.classworlds.Launcher.main (Launcher.java:47)
+[ERROR] Error while parsing schema(s).Location [].
+com.sun.istack.SAXParseException2: IOException thrown when processing "https://servis.jandarma.gov.tr/KullaniciWebServis/KullaniciServis.svc?xsd=xsd2". Exception: java.net.UnknownHostException: servis.jandarma.gov.tr.
+    at com.sun.tools.xjc.ErrorReceiver.error (ErrorReceiver.java:94)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:403)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:302)
+    at com.sun.tools.xjc.reader.internalizer.AbstractReferenceFinderImpl.startElement (AbstractReferenceFinderImpl.java:116)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement (AbstractSAXParser.java:510)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement (AbstractXMLDocumentParser.java:183)
+    at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement (XMLNSDocumentScannerImpl.java:351)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next (XMLDocumentFragmentScannerImpl.java:2710)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next (XMLDocumentScannerImpl.java:605)
+    at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next (XMLNSDocumentScannerImpl.java:112)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument (XMLDocumentFragmentScannerImpl.java:534)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:888)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:824)
+    at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse (XMLParser.java:141)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse (AbstractSAXParser.java:1216)
+    at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse (SAXParserImpl.java:635)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:395)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:275)
+    at com.sun.tools.xjc.ModelLoader.buildDOMForest (ModelLoader.java:306)
+    at com.sun.tools.xjc.ModelLoader.loadWSDL (ModelLoader.java:373)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:158)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:117)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.loadModel (XJC23Mojo.java:50)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:40)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:28)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.doExecute (RawXJC2Mojo.java:478)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.execute (RawXJC2Mojo.java:320)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at org.codehaus.classworlds.Launcher.main (Launcher.java:47)
+Caused by: java.net.UnknownHostException: servis.jandarma.gov.tr
+    at java.net.AbstractPlainSocketImpl.connect (AbstractPlainSocketImpl.java:220)
+    at java.net.SocksSocketImpl.connect (SocksSocketImpl.java:403)
+    at java.net.Socket.connect (Socket.java:609)
+    at sun.security.ssl.SSLSocketImpl.connect (SSLSocketImpl.java:285)
+    at sun.security.ssl.BaseSSLSocketImpl.connect (BaseSSLSocketImpl.java:173)
+    at sun.net.NetworkClient.doConnect (NetworkClient.java:182)
+    at sun.net.www.http.HttpClient.openServer (HttpClient.java:474)
+    at sun.net.www.http.HttpClient.openServer (HttpClient.java:569)
+    at sun.net.www.protocol.https.HttpsClient.<init> (HttpsClient.java:265)
+    at sun.net.www.protocol.https.HttpsClient.New (HttpsClient.java:372)
+    at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient (AbstractDelegateHttpsURLConnection.java:191)
+    at sun.net.www.protocol.http.HttpURLConnection.plainConnect0 (HttpURLConnection.java:1187)
+    at sun.net.www.protocol.http.HttpURLConnection.plainConnect (HttpURLConnection.java:1081)
+    at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect (AbstractDelegateHttpsURLConnection.java:177)
+    at sun.net.www.protocol.http.HttpURLConnection.getInputStream0 (HttpURLConnection.java:1587)
+    at sun.net.www.protocol.http.HttpURLConnection.getInputStream (HttpURLConnection.java:1515)
+    at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream (HttpsURLConnectionImpl.java:250)
+    at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity (XMLEntityManager.java:676)
+    at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion (XMLVersionDetector.java:150)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:860)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:824)
+    at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse (XMLParser.java:141)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse (AbstractSAXParser.java:1216)
+    at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse (SAXParserImpl.java:635)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:395)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:302)
+    at com.sun.tools.xjc.reader.internalizer.AbstractReferenceFinderImpl.startElement (AbstractReferenceFinderImpl.java:116)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement (AbstractSAXParser.java:510)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement (AbstractXMLDocumentParser.java:183)
+    at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement (XMLNSDocumentScannerImpl.java:351)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next (XMLDocumentFragmentScannerImpl.java:2710)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next (XMLDocumentScannerImpl.java:605)
+    at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next (XMLNSDocumentScannerImpl.java:112)
+    at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument (XMLDocumentFragmentScannerImpl.java:534)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:888)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:824)
+    at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse (XMLParser.java:141)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse (AbstractSAXParser.java:1216)
+    at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse (SAXParserImpl.java:635)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:395)
+    at com.sun.tools.xjc.reader.internalizer.DOMForest.parse (DOMForest.java:275)
+    at com.sun.tools.xjc.ModelLoader.buildDOMForest (ModelLoader.java:306)
+    at com.sun.tools.xjc.ModelLoader.loadWSDL (ModelLoader.java:373)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:158)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:117)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.loadModel (XJC23Mojo.java:50)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:40)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:28)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.doExecute (RawXJC2Mojo.java:478)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.execute (RawXJC2Mojo.java:320)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at org.codehaus.classworlds.Launcher.main (Launcher.java:47)
+[WARNING] Error while parsing schema(s).Location [ file:/home/turkai/Desktop/SoapClient/src/main/resources/wsdl/kullanici-service.wsdl{29,154}].
+org.xml.sax.SAXParseException: java.net.UnknownHostException: servis.jandarma.gov.tr
+    at com.sun.xml.xsom.impl.parser.NGCCRuntimeEx.parseEntity (NGCCRuntimeEx.java:383)
+    at com.sun.xml.xsom.impl.parser.NGCCRuntimeEx.importSchema (NGCCRuntimeEx.java:288)
+    at com.sun.xml.xsom.impl.parser.state.importDecl.action0 (importDecl.java:86)
+    at com.sun.xml.xsom.impl.parser.state.importDecl.leaveElement (importDecl.java:197)
+    at com.sun.xml.xsom.impl.parser.state.NGCCRuntime.endElement (NGCCRuntime.java:319)
+    at org.xml.sax.helpers.XMLFilterImpl.endElement (XMLFilterImpl.java:570)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestScanner$LocationResolver.endElement (DOMForestScanner.java:140)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:255)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:281)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:250)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.scan (DOMScanner.java:127)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestScanner.scan (DOMForestScanner.java:92)
+    at com.sun.tools.xjc.ModelLoader.loadWSDL (ModelLoader.java:392)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:158)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:117)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.loadModel (XJC23Mojo.java:50)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:40)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:28)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.doExecute (RawXJC2Mojo.java:478)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.execute (RawXJC2Mojo.java:320)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at org.codehaus.classworlds.Launcher.main (Launcher.java:47)
+Caused by: java.net.UnknownHostException: servis.jandarma.gov.tr
+    at java.net.AbstractPlainSocketImpl.connect (AbstractPlainSocketImpl.java:220)
+    at java.net.SocksSocketImpl.connect (SocksSocketImpl.java:403)
+    at java.net.Socket.connect (Socket.java:609)
+    at sun.security.ssl.SSLSocketImpl.connect (SSLSocketImpl.java:285)
+    at sun.security.ssl.BaseSSLSocketImpl.connect (BaseSSLSocketImpl.java:173)
+    at sun.net.NetworkClient.doConnect (NetworkClient.java:182)
+    at sun.net.www.http.HttpClient.openServer (HttpClient.java:474)
+    at sun.net.www.http.HttpClient.openServer (HttpClient.java:569)
+    at sun.net.www.protocol.https.HttpsClient.<init> (HttpsClient.java:265)
+    at sun.net.www.protocol.https.HttpsClient.New (HttpsClient.java:372)
+    at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient (AbstractDelegateHttpsURLConnection.java:191)
+    at sun.net.www.protocol.http.HttpURLConnection.plainConnect0 (HttpURLConnection.java:1187)
+    at sun.net.www.protocol.http.HttpURLConnection.plainConnect (HttpURLConnection.java:1081)
+    at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect (AbstractDelegateHttpsURLConnection.java:177)
+    at sun.net.www.protocol.http.HttpURLConnection.getInputStream0 (HttpURLConnection.java:1587)
+    at sun.net.www.protocol.http.HttpURLConnection.getInputStream (HttpURLConnection.java:1515)
+    at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream (HttpsURLConnectionImpl.java:250)
+    at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity (XMLEntityManager.java:676)
+    at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion (XMLVersionDetector.java:150)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:860)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:824)
+    at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse (XMLParser.java:141)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse (AbstractSAXParser.java:1216)
+    at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse (SAXParserImpl.java:635)
+    at org.xml.sax.helpers.XMLFilterImpl.parse (XMLFilterImpl.java:357)
+    at com.sun.xml.xsom.parser.JAXPParser.parse (JAXPParser.java:100)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestParser.parse (DOMForestParser.java:100)
+    at com.sun.tools.xjc.ModelLoader$XMLSchemaParser.parse (ModelLoader.java:251)
+    at com.sun.xml.xsom.impl.parser.NGCCRuntimeEx.parseEntity (NGCCRuntimeEx.java:381)
+    at com.sun.xml.xsom.impl.parser.NGCCRuntimeEx.importSchema (NGCCRuntimeEx.java:288)
+    at com.sun.xml.xsom.impl.parser.state.importDecl.action0 (importDecl.java:86)
+    at com.sun.xml.xsom.impl.parser.state.importDecl.leaveElement (importDecl.java:197)
+    at com.sun.xml.xsom.impl.parser.state.NGCCRuntime.endElement (NGCCRuntime.java:319)
+    at org.xml.sax.helpers.XMLFilterImpl.endElement (XMLFilterImpl.java:570)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestScanner$LocationResolver.endElement (DOMForestScanner.java:140)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:255)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:281)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:250)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.scan (DOMScanner.java:127)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestScanner.scan (DOMForestScanner.java:92)
+    at com.sun.tools.xjc.ModelLoader.loadWSDL (ModelLoader.java:392)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:158)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:117)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.loadModel (XJC23Mojo.java:50)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:40)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:28)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.doExecute (RawXJC2Mojo.java:478)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.execute (RawXJC2Mojo.java:320)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at org.codehaus.classworlds.Launcher.main (Launcher.java:47)
+[WARNING] Error while parsing schema(s).Location [ file:/home/turkai/Desktop/SoapClient/src/main/resources/wsdl/kullanici-service.wsdl{30,186}].
+org.xml.sax.SAXParseException: java.net.UnknownHostException: servis.jandarma.gov.tr
+    at com.sun.xml.xsom.impl.parser.NGCCRuntimeEx.parseEntity (NGCCRuntimeEx.java:383)
+    at com.sun.xml.xsom.impl.parser.NGCCRuntimeEx.importSchema (NGCCRuntimeEx.java:288)
+    at com.sun.xml.xsom.impl.parser.state.importDecl.action0 (importDecl.java:86)
+    at com.sun.xml.xsom.impl.parser.state.importDecl.leaveElement (importDecl.java:197)
+    at com.sun.xml.xsom.impl.parser.state.NGCCRuntime.endElement (NGCCRuntime.java:319)
+    at org.xml.sax.helpers.XMLFilterImpl.endElement (XMLFilterImpl.java:570)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestScanner$LocationResolver.endElement (DOMForestScanner.java:140)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:255)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:281)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:250)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.scan (DOMScanner.java:127)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestScanner.scan (DOMForestScanner.java:92)
+    at com.sun.tools.xjc.ModelLoader.loadWSDL (ModelLoader.java:392)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:158)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:117)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.loadModel (XJC23Mojo.java:50)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:40)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:28)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.doExecute (RawXJC2Mojo.java:478)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.execute (RawXJC2Mojo.java:320)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at org.codehaus.classworlds.Launcher.main (Launcher.java:47)
+Caused by: java.net.UnknownHostException: servis.jandarma.gov.tr
+    at java.net.AbstractPlainSocketImpl.connect (AbstractPlainSocketImpl.java:220)
+    at java.net.SocksSocketImpl.connect (SocksSocketImpl.java:403)
+    at java.net.Socket.connect (Socket.java:609)
+    at sun.security.ssl.SSLSocketImpl.connect (SSLSocketImpl.java:285)
+    at sun.security.ssl.BaseSSLSocketImpl.connect (BaseSSLSocketImpl.java:173)
+    at sun.net.NetworkClient.doConnect (NetworkClient.java:182)
+    at sun.net.www.http.HttpClient.openServer (HttpClient.java:474)
+    at sun.net.www.http.HttpClient.openServer (HttpClient.java:569)
+    at sun.net.www.protocol.https.HttpsClient.<init> (HttpsClient.java:265)
+    at sun.net.www.protocol.https.HttpsClient.New (HttpsClient.java:372)
+    at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient (AbstractDelegateHttpsURLConnection.java:191)
+    at sun.net.www.protocol.http.HttpURLConnection.plainConnect0 (HttpURLConnection.java:1187)
+    at sun.net.www.protocol.http.HttpURLConnection.plainConnect (HttpURLConnection.java:1081)
+    at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect (AbstractDelegateHttpsURLConnection.java:177)
+    at sun.net.www.protocol.http.HttpURLConnection.getInputStream0 (HttpURLConnection.java:1587)
+    at sun.net.www.protocol.http.HttpURLConnection.getInputStream (HttpURLConnection.java:1515)
+    at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream (HttpsURLConnectionImpl.java:250)
+    at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity (XMLEntityManager.java:676)
+    at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion (XMLVersionDetector.java:150)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:860)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:824)
+    at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse (XMLParser.java:141)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse (AbstractSAXParser.java:1216)
+    at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse (SAXParserImpl.java:635)
+    at org.xml.sax.helpers.XMLFilterImpl.parse (XMLFilterImpl.java:357)
+    at com.sun.xml.xsom.parser.JAXPParser.parse (JAXPParser.java:100)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestParser.parse (DOMForestParser.java:100)
+    at com.sun.tools.xjc.ModelLoader$XMLSchemaParser.parse (ModelLoader.java:251)
+    at com.sun.xml.xsom.impl.parser.NGCCRuntimeEx.parseEntity (NGCCRuntimeEx.java:381)
+    at com.sun.xml.xsom.impl.parser.NGCCRuntimeEx.importSchema (NGCCRuntimeEx.java:288)
+    at com.sun.xml.xsom.impl.parser.state.importDecl.action0 (importDecl.java:86)
+    at com.sun.xml.xsom.impl.parser.state.importDecl.leaveElement (importDecl.java:197)
+    at com.sun.xml.xsom.impl.parser.state.NGCCRuntime.endElement (NGCCRuntime.java:319)
+    at org.xml.sax.helpers.XMLFilterImpl.endElement (XMLFilterImpl.java:570)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestScanner$LocationResolver.endElement (DOMForestScanner.java:140)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:255)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:281)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:250)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.scan (DOMScanner.java:127)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestScanner.scan (DOMForestScanner.java:92)
+    at com.sun.tools.xjc.ModelLoader.loadWSDL (ModelLoader.java:392)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:158)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:117)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.loadModel (XJC23Mojo.java:50)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:40)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:28)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.doExecute (RawXJC2Mojo.java:478)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.execute (RawXJC2Mojo.java:320)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at org.codehaus.classworlds.Launcher.main (Launcher.java:47)
+[WARNING] Error while parsing schema(s).Location [ file:/home/turkai/Desktop/SoapClient/src/main/resources/wsdl/kullanici-service.wsdl{31,193}].
+org.xml.sax.SAXParseException: java.net.UnknownHostException: servis.jandarma.gov.tr
+    at com.sun.xml.xsom.impl.parser.NGCCRuntimeEx.parseEntity (NGCCRuntimeEx.java:383)
+    at com.sun.xml.xsom.impl.parser.NGCCRuntimeEx.importSchema (NGCCRuntimeEx.java:288)
+    at com.sun.xml.xsom.impl.parser.state.importDecl.action0 (importDecl.java:86)
+    at com.sun.xml.xsom.impl.parser.state.importDecl.leaveElement (importDecl.java:197)
+    at com.sun.xml.xsom.impl.parser.state.NGCCRuntime.endElement (NGCCRuntime.java:319)
+    at org.xml.sax.helpers.XMLFilterImpl.endElement (XMLFilterImpl.java:570)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestScanner$LocationResolver.endElement (DOMForestScanner.java:140)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:255)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:281)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:250)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.scan (DOMScanner.java:127)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestScanner.scan (DOMForestScanner.java:92)
+    at com.sun.tools.xjc.ModelLoader.loadWSDL (ModelLoader.java:392)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:158)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:117)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.loadModel (XJC23Mojo.java:50)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:40)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:28)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.doExecute (RawXJC2Mojo.java:478)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.execute (RawXJC2Mojo.java:320)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at org.codehaus.classworlds.Launcher.main (Launcher.java:47)
+Caused by: java.net.UnknownHostException: servis.jandarma.gov.tr
+    at java.net.AbstractPlainSocketImpl.connect (AbstractPlainSocketImpl.java:220)
+    at java.net.SocksSocketImpl.connect (SocksSocketImpl.java:403)
+    at java.net.Socket.connect (Socket.java:609)
+    at sun.security.ssl.SSLSocketImpl.connect (SSLSocketImpl.java:285)
+    at sun.security.ssl.BaseSSLSocketImpl.connect (BaseSSLSocketImpl.java:173)
+    at sun.net.NetworkClient.doConnect (NetworkClient.java:182)
+    at sun.net.www.http.HttpClient.openServer (HttpClient.java:474)
+    at sun.net.www.http.HttpClient.openServer (HttpClient.java:569)
+    at sun.net.www.protocol.https.HttpsClient.<init> (HttpsClient.java:265)
+    at sun.net.www.protocol.https.HttpsClient.New (HttpsClient.java:372)
+    at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient (AbstractDelegateHttpsURLConnection.java:191)
+    at sun.net.www.protocol.http.HttpURLConnection.plainConnect0 (HttpURLConnection.java:1187)
+    at sun.net.www.protocol.http.HttpURLConnection.plainConnect (HttpURLConnection.java:1081)
+    at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect (AbstractDelegateHttpsURLConnection.java:177)
+    at sun.net.www.protocol.http.HttpURLConnection.getInputStream0 (HttpURLConnection.java:1587)
+    at sun.net.www.protocol.http.HttpURLConnection.getInputStream (HttpURLConnection.java:1515)
+    at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream (HttpsURLConnectionImpl.java:250)
+    at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity (XMLEntityManager.java:676)
+    at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion (XMLVersionDetector.java:150)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:860)
+    at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse (XML11Configuration.java:824)
+    at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse (XMLParser.java:141)
+    at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse (AbstractSAXParser.java:1216)
+    at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse (SAXParserImpl.java:635)
+    at org.xml.sax.helpers.XMLFilterImpl.parse (XMLFilterImpl.java:357)
+    at com.sun.xml.xsom.parser.JAXPParser.parse (JAXPParser.java:100)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestParser.parse (DOMForestParser.java:100)
+    at com.sun.tools.xjc.ModelLoader$XMLSchemaParser.parse (ModelLoader.java:251)
+    at com.sun.xml.xsom.impl.parser.NGCCRuntimeEx.parseEntity (NGCCRuntimeEx.java:381)
+    at com.sun.xml.xsom.impl.parser.NGCCRuntimeEx.importSchema (NGCCRuntimeEx.java:288)
+    at com.sun.xml.xsom.impl.parser.state.importDecl.action0 (importDecl.java:86)
+    at com.sun.xml.xsom.impl.parser.state.importDecl.leaveElement (importDecl.java:197)
+    at com.sun.xml.xsom.impl.parser.state.NGCCRuntime.endElement (NGCCRuntime.java:319)
+    at org.xml.sax.helpers.XMLFilterImpl.endElement (XMLFilterImpl.java:570)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestScanner$LocationResolver.endElement (DOMForestScanner.java:140)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:255)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:281)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.visit (DOMScanner.java:250)
+    at com.sun.xml.bind.unmarshaller.DOMScanner.scan (DOMScanner.java:127)
+    at com.sun.tools.xjc.reader.internalizer.DOMForestScanner.scan (DOMForestScanner.java:92)
+    at com.sun.tools.xjc.ModelLoader.loadWSDL (ModelLoader.java:392)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:158)
+    at com.sun.tools.xjc.ModelLoader.load (ModelLoader.java:117)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.loadModel (XJC23Mojo.java:50)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:40)
+    at org.jvnet.mjiip.v_2_3.XJC23Mojo.doExecute (XJC23Mojo.java:28)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.doExecute (RawXJC2Mojo.java:478)
+    at org.jvnet.jaxb2.maven2.RawXJC2Mojo.execute (RawXJC2Mojo.java:320)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at org.codehaus.classworlds.Launcher.main (Launcher.java:47)
+[IJ]-1-MojoFailed-[IJ]-source=LIFECYCLE-[IJ]-goal=generate-[IJ]-id=com.turkai:consume:jar:0.0.1-SNAPSHOT-[IJ]-error=Failed to execute goal org.jvnet.jaxb2.maven2:maven-jaxb2-plugin:0.14.0:generate (1) on project consume: Unable to parse input schema(s). Error messages should have been provided.
+[IJ]-1-ProjectFailed-[IJ]-id=com.turkai:consume:jar:0.0.1-SNAPSHOT
+[IJ]-1-SessionEnded-[IJ]-id=unknown
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.999 s
+[INFO] Finished at: 2020-07-14T08:30:13+03:00
+[INFO] ------------------------------------------------------------------------
+[IJ]-1-Unknown-[IJ]-event=org.apache.maven.execution.DefaultMavenExecutionResult@124ff64d
+[ERROR] Failed to execute goal org.jvnet.jaxb2.maven2:maven-jaxb2-plugin:0.14.0:generate (1) on project consume: Unable to parse input schema(s). Error messages should have been provided. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

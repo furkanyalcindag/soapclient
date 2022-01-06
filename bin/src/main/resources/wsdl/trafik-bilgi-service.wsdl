@@ -1,0 +1,2046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="TrafikBilgiServis" targetNamespace="http://tempuri.org/"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
+                  xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex"
+                  xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy"
+                  xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract"
+                  xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+                  xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+                  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/"
+                  xmlns:wsa10="http://www.w3.org/2005/08/addressing"
+                  xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl"
+                  xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+    <wsp:Policy wsu:Id="BasicHttpsBinding_ITrafikBilgiServis_policy">
+        <wsp:ExactlyOne>
+            <wsp:All>
+                <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+                    <wsp:Policy>
+                        <sp:TransportToken>
+                            <wsp:Policy>
+                                <sp:HttpsToken RequireClientCertificate="false"/>
+                            </wsp:Policy>
+                        </sp:TransportToken>
+                        <sp:AlgorithmSuite>
+                            <wsp:Policy>
+                                <sp:Basic256/>
+                            </wsp:Policy>
+                        </sp:AlgorithmSuite>
+                        <sp:Layout>
+                            <wsp:Policy>
+                                <sp:Strict/>
+                            </wsp:Policy>
+                        </sp:Layout>
+                    </wsp:Policy>
+                </sp:TransportBinding>
+            </wsp:All>
+        </wsp:ExactlyOne>
+    </wsp:Policy>
+    <wsdl:types>
+        <xs:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <xs:import namespace="http://schemas.datacontract.org/2004/07/ADF.Contracts.DataContracts"/>
+            <xs:import
+                    namespace="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+            <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+            <xs:element name="ServisTest">
+                <xs:complexType>
+                    <xs:sequence/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="ServisTestResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="ServisTestResult" nillable="true"
+                                    type="q1:ServiceResultOfboolean"
+                                    xmlns:q1="http://schemas.datacontract.org/2004/07/ADF.Contracts.DataContracts"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_PlakadanAracGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q2:IKullaniciBilgi"
+                                    xmlns:q2="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="Plaka" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_PlakadanAracGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_PlakadanAracGetirResult" nillable="true"
+                                    type="q3:ServisSonucuArac"
+                                    xmlns:q3="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_PlakadanAracSahibiGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q4:IKullaniciBilgi"
+                                    xmlns:q4="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="Plaka" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_PlakadanAracSahibiGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_PlakadanAracSahibiGetirResult" nillable="true"
+                                    type="q5:ServisSonucuSahisBilgileri"
+                                    xmlns:q5="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_AracDurumlariniGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q6:IKullaniciBilgi"
+                                    xmlns:q6="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="Plaka" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_AracDurumlariniGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_AracDurumlariniGetirResult" nillable="true"
+                                    type="q7:ServisSonucuAracDurumlari"
+                                    xmlns:q7="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_PlakadanCezaBilgileriGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q8:IKullaniciBilgi"
+                                    xmlns:q8="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="Plaka" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="aracTescilTarihi" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_PlakadanCezaBilgileriGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_PlakadanCezaBilgileriGetirResult" nillable="true"
+                                    type="q9:ServisSonucuCezaBilgileri"
+                                    xmlns:q9="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_YetkiBelgesiBilgileriGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q10:IKullaniciBilgi"
+                                    xmlns:q10="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="Plaka" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="saseNo" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_YetkiBelgesiBilgileriGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_YetkiBelgesiBilgileriGetirResult" nillable="true"
+                                    type="q11:ServisSonucuDataSet"
+                                    xmlns:q11="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_MuayeneBelgesiBilgileriniPlakadanGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q12:IKullaniciBilgi"
+                                    xmlns:q12="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="Plaka" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="ModelYili" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_MuayeneBelgesiBilgileriniPlakadanGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_MuayeneBelgesiBilgileriniPlakadanGetirResult"
+                                    nillable="true" type="q13:ServisSonucuDataSet"
+                                    xmlns:q13="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_MuayeneBelgesiBilgileriniSasedenGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q14:IKullaniciBilgi"
+                                    xmlns:q14="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="SaseNo" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="ModelYili" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_MuayeneBelgesiBilgileriniSasedenGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_MuayeneBelgesiBilgileriniSasedenGetirResult" nillable="true"
+                                    type="q15:ServisSonucuDataSet"
+                                    xmlns:q15="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_PlakadanSigortabilgisiGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q16:IKullaniciBilgi"
+                                    xmlns:q16="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="plaka" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_PlakadanSigortabilgisiGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_PlakadanSigortabilgisiGetirResult" nillable="true"
+                                    type="q17:ServisSonucuDataSet"
+                                    xmlns:q17="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_SaseNodanSigortabilgisiGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q18:IKullaniciBilgi"
+                                    xmlns:q18="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="SaseNo" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_SaseNodanSigortabilgisiGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_SaseNodanSigortabilgisiGetirResult" nillable="true"
+                                    type="q19:ServisSonucuDataSet"
+                                    xmlns:q19="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_HizCezalariniGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q20:IKullaniciBilgi"
+                                    xmlns:q20="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="EhliyetId" type="q21:guid"
+                                    xmlns:q21="http://schemas.microsoft.com/2003/10/Serialization/"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_HizCezalariniGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_HizCezalariniGetirResult" nillable="true"
+                                    type="q22:ServisSonucuCezaBilgileri"
+                                    xmlns:q22="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_AlkolCezalariniGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q23:IKullaniciBilgi"
+                                    xmlns:q23="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="EhliyetId" type="q24:guid"
+                                    xmlns:q24="http://schemas.microsoft.com/2003/10/Serialization/"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_AlkolCezalariniGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_AlkolCezalariniGetirResult" nillable="true"
+                                    type="q25:ServisSonucuCezaBilgileri"
+                                    xmlns:q25="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_EhliyetIdIleTumCezalariniGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q26:IKullaniciBilgi"
+                                    xmlns:q26="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="EhliyetId" type="q27:guid"
+                                    xmlns:q27="http://schemas.microsoft.com/2003/10/Serialization/"/>
+                        <xs:element minOccurs="0" name="Yil" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_EhliyetIdIleTumCezalariniGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_EhliyetIdIleTumCezalariniGetirResult" nillable="true"
+                                    type="q28:ServisSonucuCezaBilgileri"
+                                    xmlns:q28="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_SaseVeMotorBilgilerindenAracGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q29:IKullaniciBilgi"
+                                    xmlns:q29="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="saseNo" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="motorNo" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_SaseVeMotorBilgilerindenAracGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_SaseVeMotorBilgilerindenAracGetirResult" nillable="true"
+                                    type="q30:ServisSonucuArac"
+                                    xmlns:q30="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_KimlikNoIleSurucuBelgesiBul">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q31:IKullaniciBilgi"
+                                    xmlns:q31="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="kimlikNo" type="xs:long"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_KimlikNoIleSurucuBelgesiBulResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_KimlikNoIleSurucuBelgesiBulResult" nillable="true"
+                                    type="q32:ServisSonucuSurucuBelgesiSonuc"
+                                    xmlns:q32="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_EhliyetPuanBilgisiGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q33:IKullaniciBilgi"
+                                    xmlns:q33="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="EhliyetId" type="q34:guid"
+                                    xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_EhliyetPuanBilgisiGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_EhliyetPuanBilgisiGetirResult" nillable="true"
+                                    type="q35:ServisSonucuEhliyetPuanBilgisi"
+                                    xmlns:q35="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBul">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q36:IKullaniciBilgi"
+                                    xmlns:q36="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="verenBirim" type="xs:int"/>
+                        <xs:element minOccurs="0" name="ehliyetNo" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBulResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBulResult"
+                                    nillable="true" type="q37:ServisSonucuSurucuBelgesiSonuc"
+                                    xmlns:q37="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_SRCBelgesiGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q38:IKullaniciBilgi"
+                                    xmlns:q38="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="kimlikNo" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_SRCBelgesiGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_SRCBelgesiGetirResult" nillable="true"
+                                    type="q39:ServisSonucuDataSet"
+                                    xmlns:q39="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_SurucuBelgesiUyarilariGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q40:IKullaniciBilgi"
+                                    xmlns:q40="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="ehliyetId" type="q41:guid"
+                                    xmlns:q41="http://schemas.microsoft.com/2003/10/Serialization/"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_SurucuBelgesiUyarilariGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_SurucuBelgesiUyarilariGetirResult" nillable="true"
+                                    type="q42:ServisSonucuSurucuBelgesiUyarilari"
+                                    xmlns:q42="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_SurucuBelgesizSuruculereYazilanCezalar">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q43:IKullaniciBilgi"
+                                    xmlns:q43="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="kimlikNo" type="xs:long"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_SurucuBelgesizSuruculereYazilanCezalarResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_SurucuBelgesizSuruculereYazilanCezalarResult"
+                                    nillable="true" type="q44:ServisSonucuCezaBilgileri"
+                                    xmlns:q44="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_SahsinTumAraclariniGetir">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="kln" nillable="true" type="q45:IKullaniciBilgi"
+                                    xmlns:q45="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                        <xs:element minOccurs="0" name="kimlikNo" type="xs:long"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TBS_SahsinTumAraclariniGetirResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TBS_SahsinTumAraclariniGetirResult" nillable="true"
+                                    type="q46:ServisSonucuSahsinAraclariResponse"
+                                    xmlns:q46="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified"
+                   targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
+            <xs:element name="anyType" nillable="true" type="xs:anyType"/>
+            <xs:element name="anyURI" nillable="true" type="xs:anyURI"/>
+            <xs:element name="base64Binary" nillable="true" type="xs:base64Binary"/>
+            <xs:element name="boolean" nillable="true" type="xs:boolean"/>
+            <xs:element name="byte" nillable="true" type="xs:byte"/>
+            <xs:element name="dateTime" nillable="true" type="xs:dateTime"/>
+            <xs:element name="decimal" nillable="true" type="xs:decimal"/>
+            <xs:element name="double" nillable="true" type="xs:double"/>
+            <xs:element name="float" nillable="true" type="xs:float"/>
+            <xs:element name="int" nillable="true" type="xs:int"/>
+            <xs:element name="long" nillable="true" type="xs:long"/>
+            <xs:element name="QName" nillable="true" type="xs:QName"/>
+            <xs:element name="short" nillable="true" type="xs:short"/>
+            <xs:element name="string" nillable="true" type="xs:string"/>
+            <xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte"/>
+            <xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt"/>
+            <xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong"/>
+            <xs:element name="unsignedShort" nillable="true" type="xs:unsignedShort"/>
+            <xs:element name="char" nillable="true" type="tns:char"/>
+            <xs:simpleType name="char">
+                <xs:restriction base="xs:int"/>
+            </xs:simpleType>
+            <xs:element name="duration" nillable="true" type="tns:duration"/>
+            <xs:simpleType name="duration">
+                <xs:restriction base="xs:duration">
+                    <xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?"/>
+                    <xs:minInclusive value="-P10675199DT2H48M5.4775808S"/>
+                    <xs:maxInclusive value="P10675199DT2H48M5.4775807S"/>
+                </xs:restriction>
+            </xs:simpleType>
+            <xs:element name="guid" nillable="true" type="tns:guid"/>
+            <xs:simpleType name="guid">
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}"/>
+                </xs:restriction>
+            </xs:simpleType>
+            <xs:attribute name="FactoryType" type="xs:QName"/>
+            <xs:attribute name="Id" type="xs:ID"/>
+            <xs:attribute name="Ref" type="xs:IDREF"/>
+        </xs:schema>
+        <xs:schema elementFormDefault="qualified"
+                   targetNamespace="http://schemas.datacontract.org/2004/07/ADF.Contracts.DataContracts"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   xmlns:tns="http://schemas.datacontract.org/2004/07/ADF.Contracts.DataContracts">
+            <xs:import namespace="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+            <xs:complexType name="ServiceResultOfboolean">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <GenericType Name="ServiceResultOf{0}{#}"
+                                     Namespace="http://schemas.datacontract.org/2004/07/ADF.Contracts.DataContracts"
+                                     xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                            <GenericParameter Name="boolean" Namespace="http://www.w3.org/2001/XMLSchema"/>
+                        </GenericType>
+                    </xs:appinfo>
+                </xs:annotation>
+                <xs:complexContent mixed="false">
+                    <xs:extension base="tns:ServiceResult">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Result" type="xs:boolean"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="ServiceResultOfboolean" nillable="true" type="tns:ServiceResultOfboolean"/>
+            <xs:complexType name="ServiceResult">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="FaultCode" type="q1:FaultCodes"
+                                xmlns:q1="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+                    <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="State" type="tns:ServiceResultState"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ServiceResult" nillable="true" type="tns:ServiceResult"/>
+            <xs:simpleType name="ServiceResultState">
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="SUCCESS"/>
+                    <xs:enumeration value="FAIL"/>
+                    <xs:enumeration value="WARNING"/>
+                    <xs:enumeration value="INFO"/>
+                    <xs:enumeration value="ERROR"/>
+                    <xs:enumeration value="NOTROLLBACKERROR"/>
+                </xs:restriction>
+            </xs:simpleType>
+            <xs:element name="ServiceResultState" nillable="true" type="tns:ServiceResultState"/>
+        </xs:schema>
+        <xs:schema elementFormDefault="qualified"
+                   targetNamespace="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   xmlns:tns="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts">
+            <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+            <xs:simpleType name="FaultCodes">
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="Unset"/>
+                    <xs:enumeration value="Adf1000">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1000
+                                </EnumerationValue>
+                            </xs:appinfo>
+                        </xs:annotation>
+                    </xs:enumeration>
+                    <xs:enumeration value="Adf1001">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1001
+                                </EnumerationValue>
+                            </xs:appinfo>
+                        </xs:annotation>
+                    </xs:enumeration>
+                    <xs:enumeration value="App2000">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2000
+                                </EnumerationValue>
+                            </xs:appinfo>
+                        </xs:annotation>
+                    </xs:enumeration>
+                    <xs:enumeration value="App2001">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2001
+                                </EnumerationValue>
+                            </xs:appinfo>
+                        </xs:annotation>
+                    </xs:enumeration>
+                </xs:restriction>
+            </xs:simpleType>
+            <xs:element name="FaultCodes" nillable="true" type="tns:FaultCodes"/>
+            <xs:complexType name="ServiceException">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="DebugInfo" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ExceptionType" type="tns:ExceptionType"/>
+                    <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ServiceException" nillable="true" type="tns:ServiceException"/>
+            <xs:simpleType name="ExceptionType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <ActualType Name="unsignedByte" Namespace="http://www.w3.org/2001/XMLSchema"
+                                    xmlns="http://schemas.microsoft.com/2003/10/Serialization/"/>
+                    </xs:appinfo>
+                </xs:annotation>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="Unknown"/>
+                    <xs:enumeration value="SystemException"/>
+                    <xs:enumeration value="ApplicationException"/>
+                    <xs:enumeration value="CanceledException"/>
+                    <xs:enumeration value="DbEntityValidationException"/>
+                </xs:restriction>
+            </xs:simpleType>
+            <xs:element name="ExceptionType" nillable="true" type="tns:ExceptionType"/>
+        </xs:schema>
+        <xs:schema elementFormDefault="qualified"
+                   targetNamespace="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   xmlns:tns="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities">
+            <xs:import namespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular"/>
+            <xs:import namespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.Response"/>
+            <xs:complexType name="IKullaniciBilgi">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="PROJEADI" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TLPIP" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TLPKLNADI" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TLPNDNACK" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TLPNDNKOD" type="xs:int"/>
+                    <xs:element name="TLPTC" nillable="true" type="xs:long"/>
+                    <xs:element minOccurs="0" name="YTKKLNADI" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="YTKPRL" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="IKullaniciBilgi" nillable="true" type="tns:IKullaniciBilgi"/>
+            <xs:complexType name="ServisSonucuArac">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <GenericType Name="ServisSonucu{0}"
+                                     Namespace="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"
+                                     xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                            <GenericParameter Name="Arac"
+                                              Namespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular"/>
+                        </GenericType>
+                    </xs:appinfo>
+                </xs:annotation>
+                <xs:complexContent mixed="false">
+                    <xs:extension base="tns:ServisSonucu">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Sonuc" nillable="true" type="q1:Arac"
+                                        xmlns:q1="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="ServisSonucuArac" nillable="true" type="tns:ServisSonucuArac"/>
+            <xs:complexType name="ServisSonucu">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="HATADETAY" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="HATAKOD" type="xs:int"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ServisSonucu" nillable="true" type="tns:ServisSonucu"/>
+            <xs:complexType name="ServisSonucuSahisBilgileri">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <GenericType Name="ServisSonucu{0}"
+                                     Namespace="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"
+                                     xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                            <GenericParameter Name="SahisBilgileri"
+                                              Namespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.Response"/>
+                        </GenericType>
+                    </xs:appinfo>
+                </xs:annotation>
+                <xs:complexContent mixed="false">
+                    <xs:extension base="tns:ServisSonucu">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Sonuc" nillable="true" type="q2:SahisBilgileri"
+                                        xmlns:q2="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.Response"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="ServisSonucuSahisBilgileri" nillable="true" type="tns:ServisSonucuSahisBilgileri"/>
+            <xs:complexType name="ServisSonucuAracDurumlari">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <GenericType Name="ServisSonucu{0}"
+                                     Namespace="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"
+                                     xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                            <GenericParameter Name="AracDurumlari"
+                                              Namespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.Response"/>
+                        </GenericType>
+                    </xs:appinfo>
+                </xs:annotation>
+                <xs:complexContent mixed="false">
+                    <xs:extension base="tns:ServisSonucu">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Sonuc" nillable="true" type="q3:AracDurumlari"
+                                        xmlns:q3="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.Response"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="ServisSonucuAracDurumlari" nillable="true" type="tns:ServisSonucuAracDurumlari"/>
+            <xs:complexType name="ServisSonucuCezaBilgileri">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <GenericType Name="ServisSonucu{0}"
+                                     Namespace="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"
+                                     xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                            <GenericParameter Name="CezaBilgileri"
+                                              Namespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.Response"/>
+                        </GenericType>
+                    </xs:appinfo>
+                </xs:annotation>
+                <xs:complexContent mixed="false">
+                    <xs:extension base="tns:ServisSonucu">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Sonuc" nillable="true" type="q4:CezaBilgileri"
+                                        xmlns:q4="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.Response"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="ServisSonucuCezaBilgileri" nillable="true" type="tns:ServisSonucuCezaBilgileri"/>
+            <xs:complexType name="ServisSonucuDataSet">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <GenericType Name="ServisSonucu{0}"
+                                     Namespace="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"
+                                     xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                            <GenericParameter Name="DataSet"
+                                              Namespace="http://schemas.datacontract.org/2004/07/System.Data"/>
+                        </GenericType>
+                    </xs:appinfo>
+                </xs:annotation>
+                <xs:complexContent mixed="false">
+                    <xs:extension base="tns:ServisSonucu">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Sonuc" nillable="true">
+                                <xs:complexType>
+                                    <xs:annotation>
+                                        <xs:appinfo>
+                                            <ActualType Name="DataSet"
+                                                        Namespace="http://schemas.datacontract.org/2004/07/System.Data"
+                                                        xmlns="http://schemas.microsoft.com/2003/10/Serialization/"/>
+                                        </xs:appinfo>
+                                    </xs:annotation>
+
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="ServisSonucuDataSet" nillable="true" type="tns:ServisSonucuDataSet"/>
+            <xs:complexType name="ServisSonucuSurucuBelgesiSonuc">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <GenericType Name="ServisSonucu{0}"
+                                     Namespace="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"
+                                     xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                            <GenericParameter Name="SurucuBelgesiSonuc"
+                                              Namespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular"/>
+                        </GenericType>
+                    </xs:appinfo>
+                </xs:annotation>
+                <xs:complexContent mixed="false">
+                    <xs:extension base="tns:ServisSonucu">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Sonuc" nillable="true" type="q5:SurucuBelgesiSonuc"
+                                        xmlns:q5="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="ServisSonucuSurucuBelgesiSonuc" nillable="true"
+                        type="tns:ServisSonucuSurucuBelgesiSonuc"/>
+            <xs:complexType name="ServisSonucuEhliyetPuanBilgisi">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <GenericType Name="ServisSonucu{0}"
+                                     Namespace="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"
+                                     xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                            <GenericParameter Name="EhliyetPuanBilgisi"
+                                              Namespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.Response"/>
+                        </GenericType>
+                    </xs:appinfo>
+                </xs:annotation>
+                <xs:complexContent mixed="false">
+                    <xs:extension base="tns:ServisSonucu">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Sonuc" nillable="true" type="q6:EhliyetPuanBilgisi"
+                                        xmlns:q6="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.Response"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="ServisSonucuEhliyetPuanBilgisi" nillable="true"
+                        type="tns:ServisSonucuEhliyetPuanBilgisi"/>
+            <xs:complexType name="ServisSonucuSurucuBelgesiUyarilari">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <GenericType Name="ServisSonucu{0}"
+                                     Namespace="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"
+                                     xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                            <GenericParameter Name="SurucuBelgesiUyarilari"
+                                              Namespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.Response"/>
+                        </GenericType>
+                    </xs:appinfo>
+                </xs:annotation>
+                <xs:complexContent mixed="false">
+                    <xs:extension base="tns:ServisSonucu">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Sonuc" nillable="true" type="q7:SurucuBelgesiUyarilari"
+                                        xmlns:q7="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.Response"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="ServisSonucuSurucuBelgesiUyarilari" nillable="true"
+                        type="tns:ServisSonucuSurucuBelgesiUyarilari"/>
+            <xs:complexType name="ServisSonucuSahsinAraclariResponse">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <GenericType Name="ServisSonucu{0}"
+                                     Namespace="http://schemas.datacontract.org/2004/07/KAFES.Service.Contracts.DataContracts.EGM.CompositeEntities"
+                                     xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                            <GenericParameter Name="SahsinAraclariResponse"
+                                              Namespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular"/>
+                        </GenericType>
+                    </xs:appinfo>
+                </xs:annotation>
+                <xs:complexContent mixed="false">
+                    <xs:extension base="tns:ServisSonucu">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Sonuc" nillable="true" type="q8:SahsinAraclariResponse"
+                                        xmlns:q8="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="ServisSonucuSahsinAraclariResponse" nillable="true"
+                        type="tns:ServisSonucuSahsinAraclariResponse"/>
+        </xs:schema>
+        <xs:schema elementFormDefault="qualified"
+                   targetNamespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   xmlns:tns="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular"
+                   xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/">
+            <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+            <xs:complexType name="Arac">
+                <xs:complexContent mixed="false">
+                    <xs:extension base="tns:Sonuc">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="AlindigiYer" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="AltSinifCinsi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="AracSinifi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="AyaktaYolcuSayisi" type="xs:int"/>
+                            <xs:element minOccurs="0" name="AzamiYukluAgirligi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="BelgeTarihi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="Durum" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="IlkMuayeneGecerlilikSuresi" nillable="true"
+                                        type="xs:string"/>
+                            <xs:element minOccurs="0" name="IlkTescilTarihi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="IslemYapanIlIlce" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="KatarAgirligi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="KoltukSayisi" type="xs:int"/>
+                            <xs:element minOccurs="0" name="KullanimAmaci" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="KullanimSekli" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="Marka" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="Modelyili" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="MotorGucu" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="MotorNo" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="NetAgirligi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="PlakaNo" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="Renk" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="RomorkAzamiYukluAgirligiFrenli" type="xs:int"/>
+                            <xs:element minOccurs="0" name="RomorkAzamiYukluAgirligiFrensiz" type="xs:int"/>
+                            <xs:element minOccurs="0" name="SahiplikBelgeNo" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="SahiplikBelgeTarihi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="SaseNo" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="SilindirHacmi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="TakografliMi" type="xs:int"/>
+                            <xs:element minOccurs="0" name="TescilBelgeSeriNo" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="TescilId" type="ser:guid"/>
+                            <xs:element minOccurs="0" name="TescilSiraNo" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="TescilTarihi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="TicariAd" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="Tip" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="TrafikBelgeSeriNo" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="UstSinifCinsi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="YakitCinsi" nillable="true" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="Arac" nillable="true" type="tns:Arac"/>
+            <xs:complexType name="Sonuc">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="HataAciklamasi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="HataKodu" type="xs:int"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="Sonuc" nillable="true" type="tns:Sonuc"/>
+            <xs:complexType name="SahsinAraclariResponse">
+                <xs:complexContent mixed="false">
+                    <xs:extension base="tns:Sonuc">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Araclar" nillable="true" type="tns:ArrayOfArac"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="SahsinAraclariResponse" nillable="true" type="tns:SahsinAraclariResponse"/>
+            <xs:complexType name="ArrayOfArac">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="Arac" nillable="true" type="tns:Arac"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfArac" nillable="true" type="tns:ArrayOfArac"/>
+            <xs:complexType name="ArrayOfTelefon">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="Telefon" nillable="true" type="tns:Telefon"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfTelefon" nillable="true" type="tns:ArrayOfTelefon"/>
+            <xs:complexType name="Telefon">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="TelefonNumarasi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TelefonTuru" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="Telefon" nillable="true" type="tns:Telefon"/>
+            <xs:complexType name="ArrayOfEhliyetTahditBilgileri">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="EhliyetTahditBilgileri" nillable="true"
+                                type="tns:EhliyetTahditBilgileri"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfEhliyetTahditBilgileri" nillable="true" type="tns:ArrayOfEhliyetTahditBilgileri"/>
+            <xs:complexType name="EhliyetTahditBilgileri">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="AktifMi" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="EkleyenBirim" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="KaldiranBirimAdi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="KaldirmaEvrakSayisi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="KaldirmaEvrakTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="KaldirmaNedeni" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="KimlikNo" type="xs:long"/>
+                    <xs:element minOccurs="0" name="TahditEvrakSayisi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TahditEvrakTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TahditNedeni" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TahditTuru" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="EhliyetTahditBilgileri" nillable="true" type="tns:EhliyetTahditBilgileri"/>
+            <xs:complexType name="ArrayOfEhliyetZayiBilgileri">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="EhliyetZayiBilgileri" nillable="true"
+                                type="tns:EhliyetZayiBilgileri"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfEhliyetZayiBilgileri" nillable="true" type="tns:ArrayOfEhliyetZayiBilgileri"/>
+            <xs:complexType name="EhliyetZayiBilgileri">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="EhliyetId" type="ser:guid"/>
+                    <xs:element minOccurs="0" name="GecerliMi" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="ZayiHarfSerisi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ZayiKaldiranMakam" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ZayiKaldirmaTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ZayiTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ZayiTuru" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ZayiYeri" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="EhliyetZayiBilgileri" nillable="true" type="tns:EhliyetZayiBilgileri"/>
+            <xs:complexType name="SurucuBelgesiSonuc">
+                <xs:complexContent mixed="false">
+                    <xs:extension base="tns:Sonuc">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="AdaySurucumu" type="xs:boolean"/>
+                            <xs:element minOccurs="0" name="BelgeNo" type="xs:int"/>
+                            <xs:element minOccurs="0" name="EhliyetId" type="ser:guid"/>
+                            <xs:element minOccurs="0" name="GecerlilikTarihi" nillable="true" type="xs:dateTime"/>
+                            <xs:element minOccurs="0" name="HarfSerisi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="IptalBilgisi" nillable="true"
+                                        type="tns:ArrayOfSurucuBelgesiIptalBilgisi"/>
+                            <xs:element minOccurs="0" name="IptalMi" type="xs:boolean"/>
+                            <xs:element minOccurs="0" name="KimlikNo" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="Kisit" nillable="true"
+                                        type="tns:ArrayOfSurucuBelgesiDigerBilgisi"/>
+                            <xs:element minOccurs="0" name="SeriNo" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="Soyad" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="SurucuBelgesiSiniflari" nillable="true"
+                                        type="tns:ArrayOfSurucuBelgesiSinifiBilgisi"/>
+                            <xs:element minOccurs="0" name="Tarih" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="TelefonNumarasi" nillable="true" type="tns:ArrayOfTelefon"/>
+                            <xs:element minOccurs="0" name="VerildigiIl_Ilce" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="YeniTipBelgeMi" type="xs:boolean"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="SurucuBelgesiSonuc" nillable="true" type="tns:SurucuBelgesiSonuc"/>
+            <xs:complexType name="ArrayOfSurucuBelgesiIptalBilgisi">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="SurucuBelgesiIptalBilgisi" nillable="true"
+                                type="tns:SurucuBelgesiIptalBilgisi"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfSurucuBelgesiIptalBilgisi" nillable="true"
+                        type="tns:ArrayOfSurucuBelgesiIptalBilgisi"/>
+            <xs:complexType name="SurucuBelgesiIptalBilgisi">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="BelgeGeriAlinmaTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BelgeTeslimDurumu" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BitisTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EhliyetIptalTuru" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="GeriAlanBirim" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="SurucuBelgesiIptalBilgisi" nillable="true" type="tns:SurucuBelgesiIptalBilgisi"/>
+            <xs:complexType name="ArrayOfSurucuBelgesiDigerBilgisi">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="SurucuBelgesiDigerBilgisi" nillable="true"
+                                type="tns:SurucuBelgesiDigerBilgisi"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfSurucuBelgesiDigerBilgisi" nillable="true"
+                        type="tns:ArrayOfSurucuBelgesiDigerBilgisi"/>
+            <xs:complexType name="SurucuBelgesiDigerBilgisi">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="KisitAdi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="KisitKodu" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="SurucuBelgesiDigerBilgisi" nillable="true" type="tns:SurucuBelgesiDigerBilgisi"/>
+            <xs:complexType name="ArrayOfSurucuBelgesiSinifiBilgisi">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="SurucuBelgesiSinifiBilgisi" nillable="true"
+                                type="tns:SurucuBelgesiSinifiBilgisi"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfSurucuBelgesiSinifiBilgisi" nillable="true"
+                        type="tns:ArrayOfSurucuBelgesiSinifiBilgisi"/>
+            <xs:complexType name="SurucuBelgesiSinifiBilgisi">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="GecerlilikBasTarihi" nillable="true" type="xs:dateTime"/>
+                    <xs:element minOccurs="0" name="GecerlilikBitTarihi" nillable="true" type="xs:dateTime"/>
+                    <xs:element minOccurs="0" name="Kisitlari" nillable="true"
+                                type="tns:ArrayOfSurucuBelgesiSinifiDigerBilgi"/>
+                    <xs:element minOccurs="0" name="SinifAdi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="SinifId" type="xs:int"/>
+                    <xs:element minOccurs="0" name="SinifTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="VerenKurs" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="SurucuBelgesiSinifiBilgisi" nillable="true" type="tns:SurucuBelgesiSinifiBilgisi"/>
+            <xs:complexType name="ArrayOfSurucuBelgesiSinifiDigerBilgi">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="SurucuBelgesiSinifiDigerBilgi" nillable="true"
+                                type="tns:SurucuBelgesiSinifiDigerBilgi"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfSurucuBelgesiSinifiDigerBilgi" nillable="true"
+                        type="tns:ArrayOfSurucuBelgesiSinifiDigerBilgi"/>
+            <xs:complexType name="SurucuBelgesiSinifiDigerBilgi">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="KisitAdi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="KisitKodu" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="SurucuBelgesiSinifiDigerBilgi" nillable="true" type="tns:SurucuBelgesiSinifiDigerBilgi"/>
+        </xs:schema>
+        <xs:schema elementFormDefault="qualified"
+                   targetNamespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.Response"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   xmlns:tns="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.Response"
+                   xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/">
+            <xs:import namespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular"/>
+            <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+            <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+            <xs:import namespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.responce"/>
+            <xs:complexType name="SahisBilgileri">
+                <xs:complexContent mixed="false">
+                    <xs:extension base="q1:Sonuc" xmlns:q1="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="GercekSahis" nillable="true" type="tns:GercekSahis"/>
+                            <xs:element minOccurs="0" name="TuzelSahis" nillable="true" type="tns:TuzelSahis"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="SahisBilgileri" nillable="true" type="tns:SahisBilgileri"/>
+            <xs:complexType name="GercekSahis">
+                <xs:complexContent mixed="false">
+                    <xs:extension base="q2:Sonuc" xmlns:q2="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="Ad2" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="AnaAdi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="BabaAdi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="DogumTarihi" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="DogumYeri" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="Durum" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="GercekSahisId" type="ser:guid"/>
+                            <xs:element minOccurs="0" name="MernisNo" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="Soyad" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="TelefonNumarasi" nillable="true" type="q2:ArrayOfTelefon"/>
+                            <xs:element minOccurs="0" name="VergiNo" nillable="true" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="GercekSahis" nillable="true" type="tns:GercekSahis"/>
+            <xs:complexType name="TuzelSahis">
+                <xs:complexContent mixed="false">
+                    <xs:extension base="q3:Sonuc" xmlns:q3="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="Durum" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="TelefonNumarasi" nillable="true" type="q3:ArrayOfTelefon"/>
+                            <xs:element minOccurs="0" name="TuzelSahisId" type="ser:guid"/>
+                            <xs:element minOccurs="0" name="VergiNo" nillable="true" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="TuzelSahis" nillable="true" type="tns:TuzelSahis"/>
+            <xs:complexType name="AracDurumlari">
+                <xs:complexContent mixed="false">
+                    <xs:extension base="q4:Sonuc" xmlns:q4="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="AracOtoparktaMi" type="xs:boolean"/>
+                            <xs:element minOccurs="0" name="AracinDurumu" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="CalintiDurumu" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="CalintiDurumuDetay" nillable="true" type="q5:ArrayOfstring"
+                                        xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                            <xs:element minOccurs="0" name="HakMahrumiyetleri" nillable="true"
+                                        type="tns:ArrayOfAracHakMahrumiyeti"/>
+                            <xs:element minOccurs="0" name="KorunanKoruyanAracMi" type="xs:boolean"/>
+                            <xs:element minOccurs="0" name="MenDurumu" nillable="true" type="xs:string"/>
+                            <xs:element minOccurs="0" name="MenDurumuDetay" nillable="true"
+                                        type="tns:ArrayOfMenDurumBilgisi"/>
+                            <xs:element minOccurs="0" name="MilletvekiliAraciMi" type="xs:boolean"/>
+                            <xs:element minOccurs="0" name="OtoparkBilgileri" nillable="true" type="q6:OtoparkBilgisi"
+                                        xmlns:q6="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.responce"/>
+                            <xs:element minOccurs="0" name="PlakaDurumu" nillable="true" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="AracDurumlari" nillable="true" type="tns:AracDurumlari"/>
+            <xs:complexType name="ArrayOfAracHakMahrumiyeti">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="AracHakMahrumiyeti" nillable="true"
+                                type="tns:AracHakMahrumiyeti"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfAracHakMahrumiyeti" nillable="true" type="tns:ArrayOfAracHakMahrumiyeti"/>
+            <xs:complexType name="AracHakMahrumiyeti">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EklemeTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EkleyenBirimAd" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EvrakSayisi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EvrakTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="MahrumiyetTuru" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="AracHakMahrumiyeti" nillable="true" type="tns:AracHakMahrumiyeti"/>
+            <xs:complexType name="ArrayOfMenDurumBilgisi">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="MenDurumBilgisi" nillable="true"
+                                type="tns:MenDurumBilgisi"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfMenDurumBilgisi" nillable="true" type="tns:ArrayOfMenDurumBilgisi"/>
+            <xs:complexType name="MenDurumBilgisi">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="Birim" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="MenEklemeTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="MenNedeni" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="MenDurumBilgisi" nillable="true" type="tns:MenDurumBilgisi"/>
+            <xs:complexType name="CezaBilgileri">
+                <xs:complexContent mixed="false">
+                    <xs:extension base="q7:Sonuc" xmlns:q7="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="CezalarList" nillable="true" type="tns:ArrayOfCeza"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="CezaBilgileri" nillable="true" type="tns:CezaBilgileri"/>
+            <xs:complexType name="ArrayOfCeza">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="Ceza" nillable="true" type="tns:Ceza"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfCeza" nillable="true" type="tns:ArrayOfCeza"/>
+            <xs:complexType name="Ceza">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="AracPlakasi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CezaDurumu" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CezaGirisTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CezaId" type="ser:guid"/>
+                    <xs:element minOccurs="0" name="CezaIptaldeKullanildiMi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CezaMaddeAdi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CezaPuani" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EhliyetId" type="ser:guid"/>
+                    <xs:element minOccurs="0" name="Harf" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="KesildigiBirim" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="KesildigiBirimTuru" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="KesildigiTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="SeriNo" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ToplamCezaTutari" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="Ceza" nillable="true" type="tns:Ceza"/>
+            <xs:complexType name="EhliyetPuanBilgisi">
+                <xs:complexContent mixed="false">
+                    <xs:extension base="q8:Sonuc" xmlns:q8="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="AktifPuan" type="xs:int"/>
+                            <xs:element minOccurs="0" name="ToplamPuan" type="xs:int"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="EhliyetPuanBilgisi" nillable="true" type="tns:EhliyetPuanBilgisi"/>
+            <xs:complexType name="SurucuBelgesiUyarilari">
+                <xs:complexContent mixed="false">
+                    <xs:extension base="q9:Sonuc" xmlns:q9="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="EhliyetIptalBilgieriList" nillable="true"
+                                        type="tns:ArrayOfEhliyetIptalBilgileri"/>
+                            <xs:element minOccurs="0" name="EhliyetTahditBilgileriList" nillable="true"
+                                        type="q9:ArrayOfEhliyetTahditBilgileri"/>
+                            <xs:element minOccurs="0" name="FahriMufettisMi" type="xs:boolean"/>
+                            <xs:element minOccurs="0" name="ZayiBilgileriList" nillable="true"
+                                        type="q9:ArrayOfEhliyetZayiBilgileri"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="SurucuBelgesiUyarilari" nillable="true" type="tns:SurucuBelgesiUyarilari"/>
+            <xs:complexType name="ArrayOfEhliyetIptalBilgileri">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="EhliyetIptalBilgileri" nillable="true"
+                                type="tns:EhliyetIptalBilgileri"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfEhliyetIptalBilgileri" nillable="true" type="tns:ArrayOfEhliyetIptalBilgileri"/>
+            <xs:complexType name="EhliyetIptalBilgileri">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="BelgeGeriAlinmaTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BelgeTeslimDurumu" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BitisTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CezaGrupTuru" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="DaimiMi" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="EhliyetId" type="ser:guid"/>
+                    <xs:element minOccurs="0" name="EhliyetIptalTuru" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="GeriAlanBirim" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="IptalSuresi" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="EhliyetIptalBilgileri" nillable="true" type="tns:EhliyetIptalBilgileri"/>
+            <xs:complexType name="CezaBilgileriPlaka">
+                <xs:complexContent mixed="false">
+                    <xs:extension base="q10:Sonuc"
+                                  xmlns:q10="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="CezalarList" nillable="true" type="tns:ArrayOfCezaPlaka"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+            <xs:element name="CezaBilgileriPlaka" nillable="true" type="tns:CezaBilgileriPlaka"/>
+            <xs:complexType name="ArrayOfCezaPlaka">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="CezaPlaka" nillable="true"
+                                type="tns:CezaPlaka"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfCezaPlaka" nillable="true" type="tns:ArrayOfCezaPlaka"/>
+            <xs:complexType name="CezaPlaka">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="AracPlakasi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CezaDurumu" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CezaGirisTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CezaId" type="ser:guid"/>
+                    <xs:element minOccurs="0" name="CezaIptaldeKullanildiMi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CezaMaddeAdi" nillable="true" type="q11:ArrayOfstring"
+                                xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                    <xs:element minOccurs="0" name="CezaPuani" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EhliyetId" type="ser:guid"/>
+                    <xs:element minOccurs="0" name="Harf" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="KesildigiBirim" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="KesildigiBirimTuru" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="KesildigiTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="SeriNo" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ToplamCezaTutari" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="CezaPlaka" nillable="true" type="tns:CezaPlaka"/>
+        </xs:schema>
+        <xs:schema elementFormDefault="qualified"
+                   targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <xs:complexType name="ArrayOfstring">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring"/>
+        </xs:schema>
+        <xs:schema elementFormDefault="qualified"
+                   targetNamespace="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.responce"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   xmlns:tns="http://schemas.datacontract.org/2004/07/wsJandarmaSorgular.responce">
+            <xs:complexType name="OtoparkBilgisi">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="Birimi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="OtoparkAdi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="OtoparkAdres" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="OtoparkIl" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="OtoparkIlce" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="OtoparkTel" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ParkaCekmeNedeni" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ParkaCekmeTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PlakaNo" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="VeriGirisTarihi" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="YakalandigiYer" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="OtoparkBilgisi" nillable="true" type="tns:OtoparkBilgisi"/>
+        </xs:schema>
+        <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <xs:element name="DataSet" nillable="true">
+                <xs:complexType>
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data"
+                                        xmlns="http://schemas.microsoft.com/2003/10/Serialization/"/>
+                        </xs:appinfo>
+                    </xs:annotation>
+
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="ITrafikBilgiServis_ServisTest_InputMessage">
+        <wsdl:part name="parameters" element="tns:ServisTest"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_ServisTest_OutputMessage">
+        <wsdl:part name="parameters" element="tns:ServisTestResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_ServisTest_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q1:ServiceException"
+                   xmlns:q1="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_PlakadanAracGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_PlakadanAracGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_PlakadanAracGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_PlakadanAracGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_PlakadanAracGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q2:ServiceException"
+                   xmlns:q2="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_PlakadanAracSahibiGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_PlakadanAracSahibiGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_PlakadanAracSahibiGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_PlakadanAracSahibiGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_PlakadanAracSahibiGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q3:ServiceException"
+                   xmlns:q3="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_AracDurumlariniGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_AracDurumlariniGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_AracDurumlariniGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_AracDurumlariniGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_AracDurumlariniGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q4:ServiceException"
+                   xmlns:q4="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_PlakadanCezaBilgileriGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_PlakadanCezaBilgileriGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_PlakadanCezaBilgileriGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_PlakadanCezaBilgileriGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_PlakadanCezaBilgileriGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q5:ServiceException"
+                   xmlns:q5="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_YetkiBelgesiBilgileriGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_YetkiBelgesiBilgileriGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_YetkiBelgesiBilgileriGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_YetkiBelgesiBilgileriGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_YetkiBelgesiBilgileriGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q6:ServiceException"
+                   xmlns:q6="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_MuayeneBelgesiBilgileriniPlakadanGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_MuayeneBelgesiBilgileriniPlakadanGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_MuayeneBelgesiBilgileriniPlakadanGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_MuayeneBelgesiBilgileriniPlakadanGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message
+            name="ITrafikBilgiServis_TBS_MuayeneBelgesiBilgileriniPlakadanGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q7:ServiceException"
+                   xmlns:q7="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_MuayeneBelgesiBilgileriniSasedenGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_MuayeneBelgesiBilgileriniSasedenGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_MuayeneBelgesiBilgileriniSasedenGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_MuayeneBelgesiBilgileriniSasedenGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message
+            name="ITrafikBilgiServis_TBS_MuayeneBelgesiBilgileriniSasedenGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q8:ServiceException"
+                   xmlns:q8="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_PlakadanSigortabilgisiGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_PlakadanSigortabilgisiGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_PlakadanSigortabilgisiGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_PlakadanSigortabilgisiGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_PlakadanSigortabilgisiGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q9:ServiceException"
+                   xmlns:q9="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SaseNodanSigortabilgisiGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_SaseNodanSigortabilgisiGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SaseNodanSigortabilgisiGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_SaseNodanSigortabilgisiGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SaseNodanSigortabilgisiGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q10:ServiceException"
+                   xmlns:q10="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_HizCezalariniGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_HizCezalariniGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_HizCezalariniGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_HizCezalariniGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_HizCezalariniGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q11:ServiceException"
+                   xmlns:q11="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_AlkolCezalariniGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_AlkolCezalariniGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_AlkolCezalariniGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_AlkolCezalariniGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_AlkolCezalariniGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q12:ServiceException"
+                   xmlns:q12="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_EhliyetIdIleTumCezalariniGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_EhliyetIdIleTumCezalariniGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_EhliyetIdIleTumCezalariniGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_EhliyetIdIleTumCezalariniGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_EhliyetIdIleTumCezalariniGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q13:ServiceException"
+                   xmlns:q13="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SaseVeMotorBilgilerindenAracGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_SaseVeMotorBilgilerindenAracGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SaseVeMotorBilgilerindenAracGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_SaseVeMotorBilgilerindenAracGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SaseVeMotorBilgilerindenAracGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q14:ServiceException"
+                   xmlns:q14="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_KimlikNoIleSurucuBelgesiBul_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_KimlikNoIleSurucuBelgesiBul"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_KimlikNoIleSurucuBelgesiBul_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_KimlikNoIleSurucuBelgesiBulResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_KimlikNoIleSurucuBelgesiBul_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q15:ServiceException"
+                   xmlns:q15="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_EhliyetPuanBilgisiGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_EhliyetPuanBilgisiGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_EhliyetPuanBilgisiGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_EhliyetPuanBilgisiGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_EhliyetPuanBilgisiGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q16:ServiceException"
+                   xmlns:q16="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBul_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBul"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBul_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBulResponse"/>
+    </wsdl:message>
+    <wsdl:message
+            name="ITrafikBilgiServis_TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBul_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q17:ServiceException"
+                   xmlns:q17="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SRCBelgesiGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_SRCBelgesiGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SRCBelgesiGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_SRCBelgesiGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SRCBelgesiGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q18:ServiceException"
+                   xmlns:q18="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SurucuBelgesiUyarilariGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_SurucuBelgesiUyarilariGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SurucuBelgesiUyarilariGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_SurucuBelgesiUyarilariGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SurucuBelgesiUyarilariGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q19:ServiceException"
+                   xmlns:q19="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SurucuBelgesizSuruculereYazilanCezalar_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_SurucuBelgesizSuruculereYazilanCezalar"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SurucuBelgesizSuruculereYazilanCezalar_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_SurucuBelgesizSuruculereYazilanCezalarResponse"/>
+    </wsdl:message>
+    <wsdl:message
+            name="ITrafikBilgiServis_TBS_SurucuBelgesizSuruculereYazilanCezalar_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q20:ServiceException"
+                   xmlns:q20="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SahsinTumAraclariniGetir_InputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_SahsinTumAraclariniGetir"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SahsinTumAraclariniGetir_OutputMessage">
+        <wsdl:part name="parameters" element="tns:TBS_SahsinTumAraclariniGetirResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ITrafikBilgiServis_TBS_SahsinTumAraclariniGetir_ServiceExceptionFault_FaultMessage">
+        <wsdl:part name="detail" element="q21:ServiceException"
+                   xmlns:q21="http://schemas.datacontract.org/2004/07/ADF.Contracts.FaultContracts"/>
+    </wsdl:message>
+    <wsdl:portType name="ITrafikBilgiServis">
+        <wsdl:operation name="ServisTest">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/ServisTest"
+                        message="tns:ITrafikBilgiServis_ServisTest_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/ServisTestResponse"
+                         message="tns:ITrafikBilgiServis_ServisTest_OutputMessage"/>
+            <wsdl:fault wsaw:Action="http://tempuri.org/ITrafikBilgiServis/ServisTestServiceExceptionFault"
+                        name="ServiceExceptionFault"
+                        message="tns:ITrafikBilgiServis_ServisTest_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_PlakadanAracGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanAracGetir"
+                        message="tns:ITrafikBilgiServis_TBS_PlakadanAracGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanAracGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_PlakadanAracGetir_OutputMessage"/>
+            <wsdl:fault wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanAracGetirServiceExceptionFault"
+                        name="ServiceExceptionFault"
+                        message="tns:ITrafikBilgiServis_TBS_PlakadanAracGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_PlakadanAracSahibiGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanAracSahibiGetir"
+                        message="tns:ITrafikBilgiServis_TBS_PlakadanAracSahibiGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanAracSahibiGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_PlakadanAracSahibiGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanAracSahibiGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_PlakadanAracSahibiGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_AracDurumlariniGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_AracDurumlariniGetir"
+                        message="tns:ITrafikBilgiServis_TBS_AracDurumlariniGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_AracDurumlariniGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_AracDurumlariniGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_AracDurumlariniGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_AracDurumlariniGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_PlakadanCezaBilgileriGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanCezaBilgileriGetir"
+                        message="tns:ITrafikBilgiServis_TBS_PlakadanCezaBilgileriGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanCezaBilgileriGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_PlakadanCezaBilgileriGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanCezaBilgileriGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_PlakadanCezaBilgileriGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_YetkiBelgesiBilgileriGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_YetkiBelgesiBilgileriGetir"
+                        message="tns:ITrafikBilgiServis_TBS_YetkiBelgesiBilgileriGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_YetkiBelgesiBilgileriGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_YetkiBelgesiBilgileriGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_YetkiBelgesiBilgileriGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_YetkiBelgesiBilgileriGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_MuayeneBelgesiBilgileriniPlakadanGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_MuayeneBelgesiBilgileriniPlakadanGetir"
+                        message="tns:ITrafikBilgiServis_TBS_MuayeneBelgesiBilgileriniPlakadanGetir_InputMessage"/>
+            <wsdl:output
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_MuayeneBelgesiBilgileriniPlakadanGetirResponse"
+                    message="tns:ITrafikBilgiServis_TBS_MuayeneBelgesiBilgileriniPlakadanGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_MuayeneBelgesiBilgileriniPlakadanGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_MuayeneBelgesiBilgileriniPlakadanGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_MuayeneBelgesiBilgileriniSasedenGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_MuayeneBelgesiBilgileriniSasedenGetir"
+                        message="tns:ITrafikBilgiServis_TBS_MuayeneBelgesiBilgileriniSasedenGetir_InputMessage"/>
+            <wsdl:output
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_MuayeneBelgesiBilgileriniSasedenGetirResponse"
+                    message="tns:ITrafikBilgiServis_TBS_MuayeneBelgesiBilgileriniSasedenGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_MuayeneBelgesiBilgileriniSasedenGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_MuayeneBelgesiBilgileriniSasedenGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_PlakadanSigortabilgisiGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanSigortabilgisiGetir"
+                        message="tns:ITrafikBilgiServis_TBS_PlakadanSigortabilgisiGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanSigortabilgisiGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_PlakadanSigortabilgisiGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanSigortabilgisiGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_PlakadanSigortabilgisiGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_SaseNodanSigortabilgisiGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SaseNodanSigortabilgisiGetir"
+                        message="tns:ITrafikBilgiServis_TBS_SaseNodanSigortabilgisiGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SaseNodanSigortabilgisiGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_SaseNodanSigortabilgisiGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SaseNodanSigortabilgisiGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_SaseNodanSigortabilgisiGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_HizCezalariniGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_HizCezalariniGetir"
+                        message="tns:ITrafikBilgiServis_TBS_HizCezalariniGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_HizCezalariniGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_HizCezalariniGetir_OutputMessage"/>
+            <wsdl:fault wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_HizCezalariniGetirServiceExceptionFault"
+                        name="ServiceExceptionFault"
+                        message="tns:ITrafikBilgiServis_TBS_HizCezalariniGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_AlkolCezalariniGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_AlkolCezalariniGetir"
+                        message="tns:ITrafikBilgiServis_TBS_AlkolCezalariniGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_AlkolCezalariniGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_AlkolCezalariniGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_AlkolCezalariniGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_AlkolCezalariniGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_EhliyetIdIleTumCezalariniGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_EhliyetIdIleTumCezalariniGetir"
+                        message="tns:ITrafikBilgiServis_TBS_EhliyetIdIleTumCezalariniGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_EhliyetIdIleTumCezalariniGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_EhliyetIdIleTumCezalariniGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_EhliyetIdIleTumCezalariniGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_EhliyetIdIleTumCezalariniGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_SaseVeMotorBilgilerindenAracGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SaseVeMotorBilgilerindenAracGetir"
+                        message="tns:ITrafikBilgiServis_TBS_SaseVeMotorBilgilerindenAracGetir_InputMessage"/>
+            <wsdl:output
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SaseVeMotorBilgilerindenAracGetirResponse"
+                    message="tns:ITrafikBilgiServis_TBS_SaseVeMotorBilgilerindenAracGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SaseVeMotorBilgilerindenAracGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_SaseVeMotorBilgilerindenAracGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_KimlikNoIleSurucuBelgesiBul">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_KimlikNoIleSurucuBelgesiBul"
+                        message="tns:ITrafikBilgiServis_TBS_KimlikNoIleSurucuBelgesiBul_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_KimlikNoIleSurucuBelgesiBulResponse"
+                         message="tns:ITrafikBilgiServis_TBS_KimlikNoIleSurucuBelgesiBul_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_KimlikNoIleSurucuBelgesiBulServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_KimlikNoIleSurucuBelgesiBul_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_EhliyetPuanBilgisiGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_EhliyetPuanBilgisiGetir"
+                        message="tns:ITrafikBilgiServis_TBS_EhliyetPuanBilgisiGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_EhliyetPuanBilgisiGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_EhliyetPuanBilgisiGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_EhliyetPuanBilgisiGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_EhliyetPuanBilgisiGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBul">
+            <wsdl:input
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBul"
+                    message="tns:ITrafikBilgiServis_TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBul_InputMessage"/>
+            <wsdl:output
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBulResponse"
+                    message="tns:ITrafikBilgiServis_TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBul_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBulServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBul_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_SRCBelgesiGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SRCBelgesiGetir"
+                        message="tns:ITrafikBilgiServis_TBS_SRCBelgesiGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SRCBelgesiGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_SRCBelgesiGetir_OutputMessage"/>
+            <wsdl:fault wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SRCBelgesiGetirServiceExceptionFault"
+                        name="ServiceExceptionFault"
+                        message="tns:ITrafikBilgiServis_TBS_SRCBelgesiGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_SurucuBelgesiUyarilariGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SurucuBelgesiUyarilariGetir"
+                        message="tns:ITrafikBilgiServis_TBS_SurucuBelgesiUyarilariGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SurucuBelgesiUyarilariGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_SurucuBelgesiUyarilariGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SurucuBelgesiUyarilariGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_SurucuBelgesiUyarilariGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_SurucuBelgesizSuruculereYazilanCezalar">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SurucuBelgesizSuruculereYazilanCezalar"
+                        message="tns:ITrafikBilgiServis_TBS_SurucuBelgesizSuruculereYazilanCezalar_InputMessage"/>
+            <wsdl:output
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SurucuBelgesizSuruculereYazilanCezalarResponse"
+                    message="tns:ITrafikBilgiServis_TBS_SurucuBelgesizSuruculereYazilanCezalar_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SurucuBelgesizSuruculereYazilanCezalarServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_SurucuBelgesizSuruculereYazilanCezalar_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_SahsinTumAraclariniGetir">
+            <wsdl:input wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SahsinTumAraclariniGetir"
+                        message="tns:ITrafikBilgiServis_TBS_SahsinTumAraclariniGetir_InputMessage"/>
+            <wsdl:output wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SahsinTumAraclariniGetirResponse"
+                         message="tns:ITrafikBilgiServis_TBS_SahsinTumAraclariniGetir_OutputMessage"/>
+            <wsdl:fault
+                    wsaw:Action="http://tempuri.org/ITrafikBilgiServis/TBS_SahsinTumAraclariniGetirServiceExceptionFault"
+                    name="ServiceExceptionFault"
+                    message="tns:ITrafikBilgiServis_TBS_SahsinTumAraclariniGetir_ServiceExceptionFault_FaultMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="BasicHttpsBinding_ITrafikBilgiServis" type="tns:ITrafikBilgiServis">
+        <wsp:PolicyReference URI="#BasicHttpsBinding_ITrafikBilgiServis_policy"/>
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="ServisTest">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/ServisTest" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_PlakadanAracGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanAracGetir" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_PlakadanAracSahibiGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanAracSahibiGetir"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_AracDurumlariniGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_AracDurumlariniGetir"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_PlakadanCezaBilgileriGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanCezaBilgileriGetir"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_YetkiBelgesiBilgileriGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_YetkiBelgesiBilgileriGetir"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_MuayeneBelgesiBilgileriniPlakadanGetir">
+            <soap:operation
+                    soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_MuayeneBelgesiBilgileriniPlakadanGetir"
+                    style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_MuayeneBelgesiBilgileriniSasedenGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_MuayeneBelgesiBilgileriniSasedenGetir"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_PlakadanSigortabilgisiGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_PlakadanSigortabilgisiGetir"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_SaseNodanSigortabilgisiGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_SaseNodanSigortabilgisiGetir"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_HizCezalariniGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_HizCezalariniGetir" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_AlkolCezalariniGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_AlkolCezalariniGetir"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_EhliyetIdIleTumCezalariniGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_EhliyetIdIleTumCezalariniGetir"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_SaseVeMotorBilgilerindenAracGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_SaseVeMotorBilgilerindenAracGetir"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_KimlikNoIleSurucuBelgesiBul">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_KimlikNoIleSurucuBelgesiBul"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_EhliyetPuanBilgisiGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_EhliyetPuanBilgisiGetir"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBul">
+            <soap:operation
+                    soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_VerenBirimVeEhliyetNosuIleSurucuBelgesiBul"
+                    style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_SRCBelgesiGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_SRCBelgesiGetir" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_SurucuBelgesiUyarilariGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_SurucuBelgesiUyarilariGetir"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_SurucuBelgesizSuruculereYazilanCezalar">
+            <soap:operation
+                    soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_SurucuBelgesizSuruculereYazilanCezalar"
+                    style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="TBS_SahsinTumAraclariniGetir">
+            <soap:operation soapAction="http://tempuri.org/ITrafikBilgiServis/TBS_SahsinTumAraclariniGetir"
+                            style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceExceptionFault">
+                <soap:fault use="literal" name="ServiceExceptionFault" namespace=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="TrafikBilgiServis">
+        <wsdl:port name="BasicHttpsBinding_ITrafikBilgiServis" binding="tns:BasicHttpsBinding_ITrafikBilgiServis">
+            <soap:address location="https://servis.jandarma.gov.tr/Kafes.Service/TrafikBilgiServis.svc"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>
