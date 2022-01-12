@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 import org.xml.sax.SAXException;
+import springfox.documentation.oas.annotations.EnableOpenApi;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import javax.xml.bind.JAXBElement;
@@ -17,7 +18,7 @@ import java.sql.SQLException;
 import java.util.Arrays;
 
 @SpringBootApplication
-@EnableSwagger2
+@EnableOpenApi
 public class ConsumeApplication {
 
 

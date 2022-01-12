@@ -2,6 +2,9 @@ package com.turkai.consume.services;
 
 import java.io.IOException;
 import java.lang.reflect.Field;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLStreamHandler;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -102,7 +105,24 @@ public class SoapConnectionMERNISService {
             SOAPConnection soapConnection = soapConnectionFactory.createConnection();
 
             // Send SOAP Message to SOAP Server
-            SOAPMessage soapResponse = soapConnection.call(createSOAPRequest(soapAction, prefix, namespace, namespaceUri, childElements, methodName), soapEndpointUrl);
+
+            URL endpoint =
+                    new URL(new URL(soapEndpointUrl),
+                            "",
+                            new URLStreamHandler() {
+                                @Override
+                                protected URLConnection openConnection(URL url) throws IOException {
+                                    URL target = new URL(url.toString());
+                                    URLConnection connection = target.openConnection();
+                                    // Connection settings
+                                    connection.setConnectTimeout(10000); // 10 sec
+                                    connection.setReadTimeout(60000); // 1 min
+                                    return(connection);
+                                }
+                            });
+
+
+            SOAPMessage soapResponse = soapConnection.call(createSOAPRequest(soapAction, prefix, namespace, namespaceUri, childElements, methodName), endpoint);
 
             SOAPBody elementBody = soapResponse.getSOAPPart().getEnvelope().getBody();
 
